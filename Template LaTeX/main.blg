@@ -1,0 +1,16 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'main.blg'
+[182] biber-MSWIN:273> INFO - === %a %b %e, %Y, %H:%M:%S
+[183] Biber.pm:333> INFO - Reading 'main.bcf'
+[533] Biber.pm:645> INFO - Found 4 citekeys in bib section 0
+[564] Biber.pm:2977> INFO - Processing section 0
+[589] Biber.pm:3115> INFO - Looking for bibtex format file 'references.bib' for section 0
+[611] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[617] bibtex.pm:895> INFO - Found BibTeX data source 'references.bib'
+[1462] Utils.pm:146> WARN - I didn't find a database entry for 'ahmed2017egocentered' (section 0)
+[1532] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1533] UCollate.pm:66> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1533] Biber.pm:2854> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'fr-FR'
+[1539] bbl.pm:505> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1554] bbl.pm:596> INFO - Output to main.bbl
+[1561] Biber.pm:106> INFO - WARNINGS: 1

@@ -1,0 +1,30 @@
+\chapter{Annexe 2 : Déploiement des Web API et de Base de données sur Azure}
+\label{chap:annexe2}
+
+Après avoir créer un compte Azure sur \href{https://portal.azure.com/}{https://portal.azure.com/}, commencez par créer une nouvelle base de données en cliquant sur \textbf{Base de données} dans le menu à gauche puis sur \textbf{Créer}, ce qui nécessite de sélectionnez un \textbf{Groupe de ressources} \footnote{Un groupe de ressources est un conteneur regroupant les applications web et les base de données} déjà existant ou en créer un nouveau. La création de la base de données nécessite également la création d'un nouveau serveur de base de données à partir duquel vous pouvez accéder à celle-ci. Enfin, réglez les paramètres de pare-feu et votre base de donnez sera prête. Les figures \ref{Figure 8.1} expliquent le processus.
+\begin{figure}[!ht]
+	\includegraphics[scale=0.17]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture}
+	\includegraphics[scale=0.17]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture2}
+	\includegraphics[scale=0.17]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture3}
+	\includegraphics[scale=0.17]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture4}
+	\includegraphics[scale=0.17]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture5}
+	\centering
+	\caption{Création d'une base de données sur Azure.}
+	\label{Figure 8.1}
+\end{figure}
+\newline Juste après la creation de votre base de données, Azure vous générera le chaîne de connexion (Connection String) pour que votre projet ASP .NET \footnote{Le projet ASP .NET représente les web api} pouvoir connecter à celle-ci. Voir la figure \ref{Figure 8.2}.
+\begin{figure}[!ht]
+	\includegraphics[scale=0.37]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture6}
+	\centering
+	\caption{Génération du chaîne de connexion.}
+	\label{Figure 8.2}
+\end{figure}
+\newline Pour déployer votre web api sur Azure, vous devez créer une nouvelle application web (Web App) en cliquant sur \textbf{App Services} dans le menu à gauche puis sur \textbf{Créer}. En suite sélectionnez le même groupe de ressources que celle créé lors de la création de votre base de données puis renseignez les informations demandées, une fois terminé cliquez sur \textbf{Vérifier + créer}. Enfin, sélectionnez le niveau de tarif, puis cliquez sur \textbf{Appliquer}. Voir les figures \ref{Figure 8.3}.
+\begin{figure}[!ht]
+	\includegraphics[scale=0.25]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture7}
+	\includegraphics[scale=0.25]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture8}
+	\includegraphics[scale=0.25]{D:/NTFS 3/Mon_master/M2/S4/Azure/Capture9}
+	\centering
+	\caption{Creation de l'application web.}
+	\label{Figure 8.3}
+\end{figure}

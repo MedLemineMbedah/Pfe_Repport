@@ -1,0 +1,176 @@
+\PassOptionsToPackage{natbib}{biblatex}
+\documentclass{bredele}
+\addbibresource{references.bib}
+
+\usepackage{makecell, amssymb, amsthm, mathtools, rotating, colortbl, enumitem, nomencl, latexsym, bookmark, url, subcaption, float, multirow, algorithm, algorithmic, color}
+\usepackage{arabtex, utf8}
+\setcode{utf8}
+\usepackage[nomain, acronym]{glossaries}
+
+\makeglossaries
+
+
+\definecolor{Skyblue}{rgb}{0.15,0.4,0.65}
+
+\floatstyle{plaintop}
+\restylefloat{table}
+
+\newtheoremstyle{mystyle}%             % Name
+{}%                                    % Space above
+{}%                                    % Space below
+{\itshape}%                            % Body font
+{}%                                    % Indent amount
+{\bfseries}%                           % Theorem head font
+{}%                                    % Punctuation after theorem head
+{\newline}%                            % Space after theorem head, ' ', or \newline
+{}%                                    % Theorem head spec (can be left empty, meaning `normal')
+
+\theoremstyle{mystyle}
+
+\addto\captionsfrench{\def\tablename{Tableau}}
+\setlist[itemize]{label=\textbullet}
+\setcounter{secnumdepth}{3}
+
+\pagenumbering{Roman}
+
+\makeatletter
+\newcommand{\closenomencl}{%
+	\closeout\@nomenclaturefile%
+}
+\makeatother
+
+\newcommand{\writenomencl}[1]{%
+	\closenomencl%
+	\IfFileExists{#1.nlo}{%
+		\write18{%
+			makeindex -s nomencl.ist -o #1.nls -t #1.nlg #1.nlo%
+		}% 
+	}{\typeout{Nothing there}}%
+}
+
+\AtEndDocument{\writenomencl{\jobname}}
+
+% Remove " CHAPTER 0 " from header
+\renewcommand{\chaptermark}[1]{%
+	\ifnum\value{chapter}>0
+	\markboth{Chapitre \thechapter{}: #1}{}%
+	\else
+	\markboth{#1}{}%
+	\fi}
+
+\title{\textbf{\textcolor{Skyblue}{Conception et simulation d'un système d'échange de clés S-SEJAD}}}
+
+\discipline{Informatique}
+
+\jury{
+	\begin{description}		
+		\item[Président~:]~~~~~~~~~~~~~~ Hamidou \textsc{Dathe}, Professeur, Université Cheikh Anta Diop
+		\item[Rapporteurs~:]~~~~~~~~~ .... \textsc{....}, .................................
+		\item[]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ....  \textsc{....}, .................................	
+		\item[Examinateurs~:]~~~~~~~ .... \textsc{....}, .................................
+		\item[]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ .... \textsc{....}, .................................
+		\item[Co-endadrant~:]\ Khadidiatou   \textsc{WANE Keita},Maître de Conférences , Université Cheikh Anta Diop
+		\item[Directeur de thèse~:]\ Khaly  \textsc{TALL}, Professeur, Université Cheikh Anta Diop
+	\end{description}
+}
+
+\logouniversite{Images/ISCAE}
+\scalelogouniversite{0.3}
+
+\unite{\large Présenté par\\ Mohamed Saleck Lebchir}
+\ecoledoc{Pour obtenir le diplôme de\\Master Professionnel de l'ISCAE}
+
+
+\begin{document}
+	
+	\maketitle
+	
+	\tableofcontents
+	\listoffigures
+	\let\cleardoublepage\clearpage
+	\listoftables
+	
+	\newacronym{UML}{UML}{Unified Modeling Language.}
+	\newacronym{API}{API}{Application Programming Interface.}
+	\newacronym{DAO}{DAO}{Data Access Object.}
+	\newacronym{IDE}{IDE}{Integrated Development Environment (Environnement de Développement Intégré).}
+	\newacronym{HTTP}{HTTP}{HyperText Transfer Protocol.}
+	\newacronym{HTTPS}{HTTPS}{HyperText Transfer Protocol Secure.}
+	\newacronym{JSON}{JSON}{JavaScript Object Notation.}
+	\newacronym{MERISE}{MERISE}{Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.}
+	\newacronym{MVC}{MVC}{Model-View-Controller.}
+	\newacronym{SGBD}{SGBD}{Système de Gestion de Bases de Données.}
+	\newacronym{SGBDR}{SGBDR}{Système de Gestion de Bases de Données Relationnelle.}
+	\newacronym{OTP}{OPT}{One-Time Password}
+	\newacronym{SOA}{SOA}{Service Oriented Architecture}
+	\newacronym{ORM}{ORM}{Object-Relational Mapping (en français Mapping Objet-Relationnel)}
+	\newacronym{APK}{APK}{Android Package Kit}
+	\newacronym{AAB}{AAB}{Android App Bundles}
+	
+	\printacronyms
+	\printglossary[title={List of Abbreviations}]
+
+	\input{./TeXFiles/Introduction}
+		
+	\input{./TeXFiles/PresentationDeLaSociete}
+	\input{./TeXFiles/EnvironnementDeTravail}
+	\input{./TeXFiles/AnalyseFoncEtConcep}
+	\input{./TeXFiles/implementation}
+	
+	
+	\addtocontents{toc}{\protect\addvspace{.1em plus 1pt}}
+	\bookmarksetup{startatroot}	
+	
+	\input{./TeXFiles/Conclusion}
+	\input{./TexFiles/Annexe1}
+	\input{./TexFiles/Annexe2}
+	\input{./TexFiles/Annexe3}	
+	
+	
+	\let\cleardoublepage\clearpage
+	
+	\chapter*{Bibliographie}
+	\addcontentsline{toc}{chapter}{Bibliographie}
+	\chaptermark{Références}
+	\printbibliography[heading=none]
+	
+	\begin{enumerate}
+		\item \bibliography{Véronique Messager Rota, Gestion de projet vers les méthodes agiles.}
+		
+		\item 	\bibliography{Rivest, Ronald L (1990), « The MD4 message digest algorithm », in : Conference on the Theory and
+			Application of Cryptography, Springer, p. 303–311.}
+		
+		\item \bibliography{Rivest, Ronald et S Dusse (1992), The MD5 message-digest algorithm.}
+		
+		\item \bibliography{Anderson, Ross et Eli Biham (1996), « Tiger : A fast new hash function », in : International Workshop
+			on Fast Software Encryption, Springer, p. 89–97.}
+		
+		\item 	\bibliography{Dobbertin, Hans, Antoon Bosselaers et Bart Preneel (1996), « RIPEMD-160 : A strengthened
+			version of RIPEMD », in : International Workshop on Fast Software Encryption, Springer, p. 71–
+			82.}
+		
+		\item \bibliography{Barreto, PSLM, Vincent Rijmen et al. (2000), « The Whirlpool hashing function », in : First open
+			NESSIE Workshop, Leuven, Belgium, t. 13, p. 14.}
+		
+		\item \bibliography{Rivest, Ronald L et al. (2008), « The MD6 hash function–a proposal to NIST for SHA-3 », in :
+			Submission to NIST 2.3, p. 1–234.}
+		
+		\item \bibliography{Aumasson, Jean-Philippe et al. (2008), « Sha-3 proposal blake », in : Submission to NIST 92.}
+		
+		\item \bibliography{Michail, Haralambos et al. (2005), « A low-power and high-throughput implementation of the SHA-1
+			hash function », in : 2005 IEEE International Symposium on Circuits and Systems, IEEE, p. 4086–
+			4089.}
+		
+		\item \bibliography{Glabb, Ryan et al. (2007), « Multi-mode operator for SHA-2 hash functions », in : journal of systems
+			architecture 53.2-3, p. 127–138.}
+		
+		\item \bibliography{Dworkin, Morris J (2015), SHA-3 standard : Permutation-based hash and extendable-output functions,
+			rapp. tech.}
+		
+		\item 	\bibliography{Dolmatov, Vasily et Alexey Degtyarev (2013), « GOST R 34.11-2012 : hash function », in : Independent
+			Submission, Ed. Request for Comments : Updates 5831, p. 2070–1721.}
+	\end{enumerate}
+	
+	
+
+\end{document}

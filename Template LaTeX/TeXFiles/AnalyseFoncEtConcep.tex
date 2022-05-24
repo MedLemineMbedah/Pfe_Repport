@@ -1,0 +1,151 @@
+\chapter{Analyse fonctionnelle et conceptuelle}
+\label{sec:AnalyseFoncEtConcep}
+
+Dans ce chapitre, je passe à la phase de conception de l'application dans lequel j'explique en détails les différents diagrammes UML relatifs a l'analyse fonctionnelle.
+
+\section{Analyse fonctionnelle}
+L'analyse fonctionnelle peut être expliqué comme une traduction du cahier de charges en une langage de conception (UML dans notre cas) permettant de caractériser les fonctionnalités d'un logiciel de façon plus compréhensible, répartissable, et réalisable. Pour ce faire, je me suis posés, essentiellement, trois questions, à savoir :
+\begin{enumerate}
+	\item \textbf{Qui peut faire quoi ?} Pour répondre à cette question, je dois décrire non seulement l’ensemble des acteurs (\textbf{qui}) et l'ensemble des fonctionnalités du système (\textbf{quoi}) mais aussi les privilèges de chaque acteur (\textbf{peut faire}), les relations entre acteurs et entre fonctionnalités ;
+	
+	\item \textbf{Comment ?} La question étant « Comment un acteur procède à une fonctionnalité ? », il s’agit donc de détailler comment se déroule le processus d’interaction entre l’acteur et le système lorsque ce premier sollicite une fonctionnalité de ce dernier ;
+	
+	\item \textbf{Quand ?} Cette question reprend la question précédente mais s’intéresse plutôt à l’aspect temps : à quel moment se déroule chaque étape du processus d’interaction ? Comment les étapes se succèdent dans l’ordre chronologique ?
+	
+\end{enumerate}
+
+Le diagramme de cas d’utilisation permet de répondre à la première question, le diagramme d’activité répond à la seconde question et le diagramme de séquence à la troisième.
+
+\subsection{Diagramme de cas d’utilisation}
+Dans cette section, j'identifie le système, les acteurs et les cas d'utilisations.
+
+\subsubsection{Système}
+\label{4.1.1.1}
+Le système représente une application mobile, nommée \textbf{Ri3aya} permettant aux patient de réserver des rendez-vous a domicile avec des consultants médicales (médecins, infirmiers, pharmacien, etc). \newline
+L’application \textbf{Ri3aya} est composée de deux espaces, à savoir, l’espace Consultant Médical et l’espace Patient.
+Les espaces que comprend cette application sont décrits à travers le tableau \ref{4.1} :
+\begin{table}[h]
+	\begin{tabular}{|m{6cm}|m{10cm}|}
+		\hline
+		\textbf{Espace} & \textbf{Fonctionnalités} \\
+		\hline
+		Patient & -	Créer un compte en tant que Patient \newline
+		- Réinitialiser le mot de passe \newline
+		- Modifier les informations du profil \newline
+		- Rechercher une consultation \newline
+		- Demander un rendez-vous \newline
+		- Payer les frais d’un rendez-vous \newline
+		- Retirer une demande avant être accepter \newline
+		- Visualiser la liste de ses rendez-vous \newline
+		- Visualiser les détails d’un rendez-vous \newline
+		- Visualiser le bilan statistique \newline
+		- Visualiser les notifications reçues \\
+		\hline
+		Consultant Médical & - Créer un compte en tant que Consultant Médical \newline
+		- Réinitialiser le mot de passe \newline
+		- Rectifier les informations du profil \newline
+		- Visualiser la liste des rendez-vous \newline
+		- Visualiser les informations d’un patient \newline
+		- Accepter un rendez-vous \newline
+		- Refuser un rendez-vous \newline
+		- Planifier, initialement, les horaires de consultation \newline
+		- Mettre à jour les horaires de consultations \newline
+		- Reporter un rendez-vous pour un patient \newline
+		- Visualiser le bilan statistique \newline
+		- Visualiser les notifications reçues \\
+		\hline
+	\end{tabular}
+	\caption{Modules de l’application.}
+	\label{4.1}
+\end{table}
+
+\subsubsection{Acteurs du système}
+Les fonctionnalités du système peuvent être sollicitées par deux types d’acteurs, à savoir :
+\begin{enumerate}
+	\item \textbf{Patient :} c'est toute personne demandant un rendez-vous d'un consultant médical;
+	\item \textbf{Consultant Médical :} c’est l'acteur que les patients demandent des rendez-vous. J'ai lui désigné le terme « Consultant Médical » puisqu'il englobe le médecin, l'infirmier, le pharmacien et tout personne dans le domaine médical pouvant être sollicité.
+\end{enumerate}
+
+\subsubsection{Cas d'utilisation}
+Les figures \ref{Figure 4.1}, \ref{Figure 4.2} et \ref{Figure 4.3} présentent les diagrammes de cas d’utilisation des acteurs du système.
+\begin{figure}[h]
+\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capt}
+	\centering
+	\caption{Diagramme de cas d'utilisation d'utilisateur}
+	\label{Figure 4.1}
+\end{figure}
+\begin{figure}[h]
+\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capt2}
+	\centering
+	\caption{Diagramme de cas d'utilisation du patient}
+	\label{Figure 4.2}
+\end{figure}
+\begin{figure}[h]
+\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capt3}
+	\centering
+	\caption{Diagramme de cas d'utilisation du consultant médical}
+	\label{Figure 4.3}
+\end{figure}
+
+\subsection{Diagrammes d’activité}
+Cette section a pour objectif de mettre en surbrillance le processus quelques fonctionnalités de l'application pour voir les détailles. J'ai choisi trois cas d’utilisation, à savoir, la création d’un compte, la demande d’un rendez-vous et l’ajournement d’un rendez-vous.
+
+\subsubsection{Création de compte}
+Le processus de création de compte commence tout d’abord par la saisie d’informations requises. Ensuite, l’utilisateur soumet une demande de création du compte. Pour des raisons de sécurité, afin de valider la création de compte, nous envoyons au numéro de téléphone de l’utilisateur un SMS comprenant un code \gls{OTP} qui serait expiré dans 2 minutes. Cela nous permettrait de vérifier qu’il est bien le sien. L’envoi des SMS est effectué via l’Application Programming Interface (\gls{API}) Firebase Authentication. L’application bloquerait l’utilisateur pour une durée de quatre heures après avoir reçu 5 codes \gls{OTP} sans utiliser aucun. Si l’utilisateur reçoit le SMS, Firebase à travers Google Play Services essaierait de récupérer automatiquement le code \gls{OTP} du SMS; si l’opération réussit, un courrier de bienvenue serait envoyé à l’utilisateur et la création du compte s’achève avec succès. Toutefois, si Firebase n’arrive pas à récupérer le SMS reçu, l’application demande à l’utilisateur de saisir manuellement le code \gls{OTP}. Voir la figure \ref{Figure 4.4}.
+\begin{figure}[h]
+	\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capture1}
+	\centering
+	\caption{Diagramme d'activité : Création de compte}
+	\label{Figure 4.4}
+\end{figure}
+
+\subsubsection{Demande de rendez-vous}
+Pour une demande de rendez-vous, il faut d'abord rechercher une consultation par consultant médical ou par spécialité. Une fois le patient choisit le profil du consultant médical qui lui satisfait, il peut directement lancer la demande de rendez-vous. Une notification sera envoyée au consultant médical en question, ensuite, le patient aussi recevra une notification de la décision du consultant médical concernant le rendez-vous. S'il s'agit d'une approbation, le patient doit procéder au paiement des frais de consultation qui doit être effectue en Bankily. Par contre s'il s'agit un rejet, le processus terminera par la notification. Voir la figure \ref{Figure 4.5}.
+\begin{figure}[h]
+	\includegraphics[scale=0.35]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capture2}
+	\centering
+	\caption{Diagramme d'activité : Demande de rendez-vous}
+	\label{Figure 4.5}
+\end{figure}
+
+\subsubsection{Ajournement de rendez-vous}
+Le patient peut lancer une demander de report de rendez-vous, dans ce cas une notification sera envoyée au consultant médical en question. Ce dernier devra proposer au patient la date et l'horaire du nouveau rendez-vous. Si le patient confirme la proposition, une notification à ce propos sera envoyée au consultant médical concerne. En revanche, si les nouvelles date et horaire ne satisfait pas au patient, il pourrait les rejeter, avec la possibilité d’indiquer sous forme de commentaire les dates et les horaires de préférence, et demander au consultant médical de proposer une nouvelle date et horaire. Voir la figure \ref{Figure 4.6}.
+\begin{figure}[!h]
+	\includegraphics[scale=0.4]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Capture3}
+	\centering
+	\caption{Diagramme d'activité : Ajournement de rendez-vous}
+	\label{Figure 4.6}
+\end{figure}
+
+\subsection{Diagrammes de séquence}
+L'objectif de cette section est de mettre l'accent sur l’aspect temps du déroulement de processus des fonctionnalités pour lesquelles nous avons fait les diagrammes d’activité. Voir les figures \ref{Figure 4.7} et \ref{Figure 4.8}.
+\begin{figure}[h]
+	\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Diagramme de séquence (Signup)}
+	\centering
+	\caption{Diagramme de séquence : Création de compte}
+	\label{Figure 4.7}
+\end{figure}
+\begin{figure}[h]
+	\includegraphics[scale=0.3]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Diagramme de séquence (Demande de rendez-vous)}
+	\centering
+	\caption{Diagramme de séquence : Demande de rendez-vous}
+	\label{Figure 4.8}
+\end{figure}
+
+\section{Modélisation de la base de données}
+\subsection{Diagramme de classes}
+Suite à l'analyse fonctionnelle de l'application, je m'oriente désormais la modélisation de la base de données. C’est dans ce cadre que j'ai réalisé le diagramme de classes qui permet d’identifier les différentes entités \footnote{il s’agit des classes qui seront converties en tables.} du système et les relations entre elles. \newline
+Les points suivants résument les principales contraintes sur lesquelles je me suis basé pour réaliser le diagramme de classes :
+\begin{enumerate}
+	\item L'entité \textbf{User} désigne la classe qui englobe tout type d'utilisateur : Patient et Consultant Médical;
+	\item L'entité \textbf{Consultation} C'est la classe par laquelle l'utilisateur initialise ses horaires disponibles pour les rendez-vous;
+	\item La fonction du consultant médical représente une entité nommée \textbf{Function};
+	\item Le lieu de travail du consultant médical représente aussi une entité sous le nom \textbf{Workspace};
+\end{enumerate}
+La figure \ref{Figure 4.9} représente le diagramme de classes.
+\begin{figure}[h]
+	\includegraphics[scale=0.6]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Diagramme de classe}
+	\centering
+	\caption{Diagramme de classes.}
+	\label{Figure 4.9}
+\end{figure}

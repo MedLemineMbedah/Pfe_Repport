@@ -1,0 +1,89 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{rachmawati2018comparative}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=ca4057308f333247f0dec9e03cb86ddf}{Rachmawati}{R\bibinitperiod}{D}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=3cbe2f58e30570c4659f67ebf846d628}{Tarigan}{T\bibinitperiod}{JT}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=26d76e210f14b6fee9df8fe8a380ca3c}{Ginting}{G\bibinitperiod}{ABC}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0dd25b1e7f55321fbb2d6edb05260390}
+      \strng{fullhash}{0dd25b1e7f55321fbb2d6edb05260390}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2018}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Journal of Physics: Conference Series}
+      \field{number}{1}
+      \field{title}{A comparative study of Message Digest 5 (MD5) and SHA256 algorithm}
+      \field{volume}{978}
+      \field{year}{2018}
+      \field{pages}{012116}
+      \range{pages}{1}
+    \endentry
+    \entry{rivest1992md5}{misc}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=5614cb2ff8306dd22ca98f90f5b096af}{Rivest}{R\bibinitperiod}{Ronald}{R\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=93f2e5dd3199f74a7c6493f3b7e99ce2}{Dusse}{D\bibinitperiod}{S}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Laboratory for Computer Science}%
+      }
+      \strng{namehash}{8332cf0b226affee74f89d552b05ce65}
+      \strng{fullhash}{8332cf0b226affee74f89d552b05ce65}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{1992}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The MD5 message-digest algorithm}
+      \field{year}{1992}
+    \endentry
+    \entry{wang2005break}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=8654ac1693c7a0253e3fdaaa40942110}{Wang}{W\bibinitperiod}{Xiaoyun}{X\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=2e2c3eb46f6f59592bab0cad2786b13e}{Yu}{Y\bibinitperiod}{Hongbo}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{701dbbe36f4b9dd69a0d5b5ee9496aca}
+      \strng{fullhash}{701dbbe36f4b9dd69a0d5b5ee9496aca}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Annual international conference on the theory and applications of cryptographic techniques}
+      \field{title}{How to break MD5 and other hash functions}
+      \field{year}{2005}
+      \field{pages}{19\bibrangedash 35}
+      \range{pages}{17}
+    \endentry
+  \endsortlist
+  \missing{ahmed2017egocentered}
+\endrefsection
+\endinput
+

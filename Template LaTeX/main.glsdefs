@@ -1,0 +1,480 @@
+\ifglsentryexists{UML}{}%
+{%
+\gls@defglossaryentry{UML}%
+{%
+name={UML},%
+sort={UML},%
+type={acronym},%
+first={Unified Modeling Language.\glsspace (UML)},%
+firstplural={Unified Modeling Language.\glsspace (UML)},%
+text={UML},%
+plural={UML},%
+description={Unified Modeling Language.},%
+descriptionplural={Unified Modeling Language.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Unified Modeling Language.},%
+longplural={Unified Modeling Language.},%
+short={UML},%
+shortplural={UML},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{API}{}%
+{%
+\gls@defglossaryentry{API}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application Programming Interface.\glsspace (API)},%
+firstplural={Application Programming Interface.\glsspace (API)},%
+text={API},%
+plural={API},%
+description={Application Programming Interface.},%
+descriptionplural={Application Programming Interface.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application Programming Interface.},%
+longplural={Application Programming Interface.},%
+short={API},%
+shortplural={API},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{DAO}{}%
+{%
+\gls@defglossaryentry{DAO}%
+{%
+name={DAO},%
+sort={DAO},%
+type={acronym},%
+first={Data Access Object.\glsspace (DAO)},%
+firstplural={Data Access Object.\glsspace (DAO)},%
+text={DAO},%
+plural={DAO},%
+description={Data Access Object.},%
+descriptionplural={Data Access Object.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Data Access Object.},%
+longplural={Data Access Object.},%
+short={DAO},%
+shortplural={DAO},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IDE}{}%
+{%
+\gls@defglossaryentry{IDE}%
+{%
+name={IDE},%
+sort={IDE},%
+type={acronym},%
+first={Integrated Development Environment (Environnement de Développement Intégré).\glsspace (IDE)},%
+firstplural={Integrated Development Environment (Environnement de Développement Intégré).\glsspace (IDE)},%
+text={IDE},%
+plural={IDE},%
+description={Integrated Development Environment (Environnement de Développement Intégré).},%
+descriptionplural={Integrated Development Environment (Environnement de Développement Intégré).\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Integrated Development Environment (Environnement de Développement Intégré).},%
+longplural={Integrated Development Environment (Environnement de Développement Intégré).},%
+short={IDE},%
+shortplural={IDE},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTTP}{}%
+{%
+\gls@defglossaryentry{HTTP}%
+{%
+name={HTTP},%
+sort={HTTP},%
+type={acronym},%
+first={HyperText Transfer Protocol.\glsspace (HTTP)},%
+firstplural={HyperText Transfer Protocol.\glsspace (HTTP)},%
+text={HTTP},%
+plural={HTTP},%
+description={HyperText Transfer Protocol.},%
+descriptionplural={HyperText Transfer Protocol.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Transfer Protocol.},%
+longplural={HyperText Transfer Protocol.},%
+short={HTTP},%
+shortplural={HTTP},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{HTTPS}{}%
+{%
+\gls@defglossaryentry{HTTPS}%
+{%
+name={HTTPS},%
+sort={HTTPS},%
+type={acronym},%
+first={HyperText Transfer Protocol Secure.\glsspace (HTTPS)},%
+firstplural={HyperText Transfer Protocol Secure.\glsspace (HTTPS)},%
+text={HTTPS},%
+plural={HTTPS},%
+description={HyperText Transfer Protocol Secure.},%
+descriptionplural={HyperText Transfer Protocol Secure.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Transfer Protocol Secure.},%
+longplural={HyperText Transfer Protocol Secure.},%
+short={HTTPS},%
+shortplural={HTTPS},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{JSON}{}%
+{%
+\gls@defglossaryentry{JSON}%
+{%
+name={JSON},%
+sort={JSON},%
+type={acronym},%
+first={JavaScript Object Notation.\glsspace (JSON)},%
+firstplural={JavaScript Object Notation.\glsspace (JSON)},%
+text={JSON},%
+plural={JSON},%
+description={JavaScript Object Notation.},%
+descriptionplural={JavaScript Object Notation.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript Object Notation.},%
+longplural={JavaScript Object Notation.},%
+short={JSON},%
+shortplural={JSON},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MERISE}{}%
+{%
+\gls@defglossaryentry{MERISE}%
+{%
+name={MERISE},%
+sort={MERISE},%
+type={acronym},%
+first={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.\glsspace (MERISE)},%
+firstplural={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.\glsspace (MERISE)},%
+text={MERISE},%
+plural={MERISE},%
+description={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.},%
+descriptionplural={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.},%
+longplural={Méthode d’Étude et de Réalisation Informatique par les Sous-Ensembles ou pour les Systèmes d’Entreprise.},%
+short={MERISE},%
+shortplural={MERISE},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MVC}{}%
+{%
+\gls@defglossaryentry{MVC}%
+{%
+name={MVC},%
+sort={MVC},%
+type={acronym},%
+first={Model-View-Controller.\glsspace (MVC)},%
+firstplural={Model-View-Controller.\glsspace (MVC)},%
+text={MVC},%
+plural={MVC},%
+description={Model-View-Controller.},%
+descriptionplural={Model-View-Controller.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Model-View-Controller.},%
+longplural={Model-View-Controller.},%
+short={MVC},%
+shortplural={MVC},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SGBD}{}%
+{%
+\gls@defglossaryentry{SGBD}%
+{%
+name={SGBD},%
+sort={SGBD},%
+type={acronym},%
+first={Système de Gestion de Bases de Données.\glsspace (SGBD)},%
+firstplural={Système de Gestion de Bases de Données.\glsspace (SGBD)},%
+text={SGBD},%
+plural={SGBD},%
+description={Système de Gestion de Bases de Données.},%
+descriptionplural={Système de Gestion de Bases de Données.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Système de Gestion de Bases de Données.},%
+longplural={Système de Gestion de Bases de Données.},%
+short={SGBD},%
+shortplural={SGBD},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SGBDR}{}%
+{%
+\gls@defglossaryentry{SGBDR}%
+{%
+name={SGBDR},%
+sort={SGBDR},%
+type={acronym},%
+first={Système de Gestion de Bases de Données Relationnelle.\glsspace (SGBDR)},%
+firstplural={Système de Gestion de Bases de Données Relationnelle.\glsspace (SGBDR)},%
+text={SGBDR},%
+plural={SGBDR},%
+description={Système de Gestion de Bases de Données Relationnelle.},%
+descriptionplural={Système de Gestion de Bases de Données Relationnelle.\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Système de Gestion de Bases de Données Relationnelle.},%
+longplural={Système de Gestion de Bases de Données Relationnelle.},%
+short={SGBDR},%
+shortplural={SGBDR},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{OTP}{}%
+{%
+\gls@defglossaryentry{OTP}%
+{%
+name={OPT},%
+sort={OPT},%
+type={acronym},%
+first={One-Time Password\glsspace (OPT)},%
+firstplural={One-Time Password\glsspace (OPT)},%
+text={OPT},%
+plural={OPT},%
+description={One-Time Password},%
+descriptionplural={One-Time Password\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={One-Time Password},%
+longplural={One-Time Password},%
+short={OPT},%
+shortplural={OPT},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SOA}{}%
+{%
+\gls@defglossaryentry{SOA}%
+{%
+name={SOA},%
+sort={SOA},%
+type={acronym},%
+first={Service Oriented Architecture\glsspace (SOA)},%
+firstplural={Service Oriented Architecture\glsspace (SOA)},%
+text={SOA},%
+plural={SOA},%
+description={Service Oriented Architecture},%
+descriptionplural={Service Oriented Architecture\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Service Oriented Architecture},%
+longplural={Service Oriented Architecture},%
+short={SOA},%
+shortplural={SOA},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ORM}{}%
+{%
+\gls@defglossaryentry{ORM}%
+{%
+name={ORM},%
+sort={ORM},%
+type={acronym},%
+first={Object-Relational Mapping (en français Mapping Objet-Relationnel)\glsspace (ORM)},%
+firstplural={Object-Relational Mapping (en français Mapping Objet-Relationnel)\glsspace (ORM)},%
+text={ORM},%
+plural={ORM},%
+description={Object-Relational Mapping (en français Mapping Objet-Relationnel)},%
+descriptionplural={Object-Relational Mapping (en français Mapping Objet-Relationnel)\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Object-Relational Mapping (en français Mapping Objet-Relationnel)},%
+longplural={Object-Relational Mapping (en français Mapping Objet-Relationnel)},%
+short={ORM},%
+shortplural={ORM},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{APK}{}%
+{%
+\gls@defglossaryentry{APK}%
+{%
+name={APK},%
+sort={APK},%
+type={acronym},%
+first={Android Package Kit\glsspace (APK)},%
+firstplural={Android Package Kit\glsspace (APK)},%
+text={APK},%
+plural={APK},%
+description={Android Package Kit},%
+descriptionplural={Android Package Kit\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Android Package Kit},%
+longplural={Android Package Kit},%
+short={APK},%
+shortplural={APK},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AAB}{}%
+{%
+\gls@defglossaryentry{AAB}%
+{%
+name={AAB},%
+sort={AAB},%
+type={acronym},%
+first={Android App Bundle\glsspace (AAB)},%
+firstplural={Android App Bundle\glsspace (AAB)},%
+text={AAB},%
+plural={AAB},%
+description={Android App Bundle},%
+descriptionplural={Android App Bundle\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Android App Bundle},%
+longplural={Android App Bundle},%
+short={AAB},%
+shortplural={AAB},%
+counter={page},%
+parent={},%
+%
+}%
+}%

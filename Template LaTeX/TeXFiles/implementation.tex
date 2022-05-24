@@ -1,0 +1,143 @@
+\let\cleardoublepage\clearpage
+
+\chapter{Implémentation}
+\label{sec:implementation}
+
+Dans ce chapitre, j'essaie de faire une évocation globale des détails techniques relatifs au développement de l’application \textbf{Ri3aya}. Pour ce faire, je présente, tout d’abord, l’architecture logicielle de l'application. Ensuite, j'illustre les services web que j'ai réalisé pour pouvoir interagir entre le \gls{SGBD} et l’application. En outre, je décris les différents motifs d’architecture que j'ai implémenté. Après cela, j'explose comment j'ai procédé à l'obfuscation du code source pour le protéger contre les attaques de rétro-ingénierie. Enfin, à travers des captures d’écran, je réalise une démonstration des principales fonctionnalités de l’application.
+
+\section{Architecture de l’application}
+L’architecture de notre application peut être divisée en deux blocs, le premier concerne le côté front-end (IONIC), le second est relatif au côté back-end (services web et \gls{SGBD}). La communication entre ces deux blocs est garantie à travers l’architecture Service-Oriented Architecture (\gls{SOA}). La figure ci-dessous en présente une illustration.
+\begin{figure}[h]
+	\includegraphics[scale=0.79]{D:/NTFS 3/Mon_master/M2/S4/Diagrammes/Architecture}
+	\centering
+	\caption{Architecture logicielle de l'application.}
+	\label{Figure 5.1}
+\end{figure}
+\newline
+Le bloc à gauche constitue le côté front-end de l'application. J'ai utilise \textbf{IONIC} (voir la section \ref{IONIC}) avec \textbf{ANGULAR} (voir la section \ref{ANGULAR}), ce dernier repose essentiellement sur une approche \gls{MVC} que nous avons déjà expliqué dans la section \ref{3.3.3.1}. \newline
+Le bloc à droite représente le coté back-end de l'application. Autrement dit, il s'agit du serveur de l'application, là ou je récupère les requêtes \gls{HTTP} provenant du front-end, je les traite et je les fait retourner au front-end. \newline
+Toutes les requêtes de base de données sont gérées par un RESTful \gls{API} regroupant un ensemble de services web réalisés via l'\gls{ORM} Entity Framework dans le \textbf{Data Layer} qui représente le couche \gls{DAO} (voir la section \ref{DAO}). Ainsi, lorsque l’application aurait besoin d’exécuter une requête, elle communique avec le Contrôleur correspondant, à travers un tunnel \gls{HTTP}, qui lui retourne le résultat sous format JavaScript Object Notation (\gls{JSON}) comme la figure ci-dessus montre.
+
+\section{Services web}
+Je présente dans cette section les essentiels scripts C\# dans le \textbf{Data Layer} qui constituent les services web du back-end. \newline
+Le tableau ci-dessous en présente la liste.
+\begin{table}[h]
+	\begin{tabular}{|m{6cm}|m{10cm}|}
+		\hline
+		\textbf{Service web} & \textbf{Rôle} \\
+		\hline
+		AuthRepository.cs & Authentification d'utilisateurs \\
+		\hline
+		AdressProvider.cs & Insertion, récupération, modification et suppression des données des adresses \\
+		\hline
+		ConsultationProvider.cs & Insertion, récupération, modification et suppression des données des consultations \\
+		\hline
+		FunctionProvider.cs & Insertion, récupération, modification et suppression des données des fonctions des consultant médical \\
+		\hline
+		UserProvider.cs & Insertion, récupération, modification et suppression des données des utilisateurs \\
+		\hline
+		WorkspaceProvider.cs & Insertion, récupération, modification et suppression des données des lieux de travails des consultants médical \\
+		\hline 
+		UserWorkspaceProvider.cs & Insertion, récupération, modification et suppression des données de la table associative entre "User" et "Workspace" \\
+		\hline
+	\end{tabular}
+	\caption{Rôles des différents services web de l'application.}
+\end{table}
+
+\section{Vue sur l’application}
+Dans cette section, je présente les principales fonctionnalités dans chaque espace de l'application.
+\subsection{Options d’internaute}
+Un internaute désigne tout individu qui navigue dans l’application sans qu’il soit connecté à un compte. \newline 
+La première figure \ref{Figure 5.2} présente l’écran d’accueil de l'application. À ce stade, l’internaute peut se connecter à son compte \textbf{Ri3aya} ou créer un compte s’il n’en a pas. Lorsque l’internaute clique sur \textbf{Se connecter}, s'apparait l'écran indiqué à la deuxième figure pour fournir les informations nécessaires relatives au compte en question avec l'option \textbf{Mot de passe oublié}. Dans le cas où l'internaute n'a pas de compte, il doit cliquer sur \textbf{S'inscrire} de la première figure pour accéder aux écrans de création de compte indiqués aux deux dernières figures dans lesquels il doit fournir aussi des informations relatives au compte.
+\begin{figure}[h]
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210907-102900_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210907-103417_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-153840_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-154413_HomeDoct}
+	\centering
+	\caption{Interfaces d'accueil pour l'internaute.}
+	\label{Figure 5.2}
+\end{figure}
+\newline
+En cas de création de compte, l’internaute doit fournie l’ensemble des informations requises, sinon, un message d’erreur lui sera affiché en dessous des champs vides ou dans lesquels les informations sont invalides syntaxiquement. Après avoir fournir ces informations, un code \gls{OTP} lui sera envoyé dans un SMS dont la détection est automatiquement faite via Firebase \footnote{Si la carte SIM est dans l'appareil de l'internaute, la détection du code \gls{OTP} sera en arrière-plan sans passer par l'écran indiqué à la première figure de \ref{Figure 5.3} mais plutôt il passe directement à la page suivante. Voir la figure}. Le code \gls{OTP} sert d’authentification d’internaute et de vérification de la validité du numéro de téléphone. Une fois le code \gls{OTP} validé, les informations du compte seront insérée dans la base de données.
+
+\subsection{Espace Patient}
+Lorsque l'internaute qui a sélectionnée "Patient " comme type de compte, dépasse la vérification du code \gls{OTP}, il passe à l'écran dans lequel il doit accomplir des informations relatives au type de compte chois. Voir la deuxième figure de \ref{Figure 5.3}.
+\begin{figure}[h]
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155828_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155844_HomeDoct}
+	\centering
+	\caption{Interfaces d'accomplissement des informations de patient.}
+	\label{Figure 5.3}
+\end{figure}
+\newline
+
+\subsubsection{Options de navigation et paramétrage}
+Après que le patient accomplis la création de son compte, il passe à la page d'accueil, dans laquelle il peut visualiser les consultants médicals disponibles, ainsi que ses rendez-vous en attente (en attendant les décisions des consultants médicals concernes), celles en cours et termines. Il peut aussi changer les paramétrés de son compte, visualiser l'historique de notifications,voir les informations du profil et les changer. Voir les figures \ref{Figure 5.4}
+\begin{figure}[!h]
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155859_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160510_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160550_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155208_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155942_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155339_HomeDoct}
+	\centering
+	\caption{Interfaces des options de navigation et paramétrage.}
+	\label{Figure 5.4}
+\end{figure}
+
+\subsubsection{Demande de rendez-vous}
+Après avoir naviguer dans les consultations disponibles, le patient peut faire une demande de rendez-vous, et bien évident la demande peut être acceptée ou refusée comme déjà expliquer précédemment dans le diagramme d'activité \ref{Figure 4.5}. Voir les figures \ref{Figure 5.5}
+\begin{figure}[!h]
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160023_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160031_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160709_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-160447_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161549_HomeDoct}
+	\centering
+	\caption{Interfaces de demande de rendez-vous.}
+	\label{Figure 5.5}
+\end{figure}
+
+\subsection{Espace Consultant Médical}
+De même, si l'internaute qui a sélectionnée "Consultant Médical" comme type de compte, dépasse la vérification du code \gls{OTP}, il passe à l'écran dans lequel il doit accomplir des informations relatives au type de compte choisi. Elles comportent : la fonction, le lieu de travail, les horaires avec les dates, ainsi qu'une pièce de jointure confirmant l'identité professionnelle . Voir les figures \ref{Figure 5.6}.
+\begin{figure}[!h]
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-154534_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155011_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155038_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-155059_HomeDoct}
+	\centering
+	\caption{Interfaces d'accomplissement des informations de consultant médical.}
+	\label{Figure 5.6}
+\end{figure}
+\subsubsection{Options de navigation et paramétrage}
+Après que le consultant médical accomplis la création de son compte, il passe à la page d'accueil, dans laquelle lui aussi peut visualiser les consultations en cours, celles en attentes, mais avec l'option de localiser ces patients ainsi que les rendez-vous termines. Il peut aussi changer les paramétrés de son compte, visualiser l'historique de notifications, voir les informations du profil et les changer exactement comme le patient. Voir les figures \ref{Figure 5.7}.
+\begin{figure}[!h]
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210908-135800_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161343_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161420_HomeDoct}
+	\includegraphics[scale=0.15]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161502_HomeDoct}
+	\centering
+	\caption{Interfaces des options de navigation et de paramétrage.}
+	\label{Figure 5.7}
+\end{figure}
+\subsubsection{Approbation ou Refus d'une demande}
+Le consultant médical est notifié de toute demande de rendez-vous, ensuite, il peut prendre sa décision concernant la consultation en question. Voir les deux premières figures de \ref{Figure 5.8}. En cas où le consultant médical accepte la demande de rendez-vous, un événement se créera dans le calendrier de son téléphone. Voir la dernière figure de \ref{Figure 5.8}
+\begin{figure}[h]
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161317_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210907-175157_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-161448_Calendar}
+	\centering
+	\caption{Interfaces d'approbation et refus d'une demande de rendez-vous.}
+	\label{Figure 5.8}
+\end{figure}
+\subsubsection{Mise à jour d'emploi du temps}
+En cliquant sur l'icône "\textbf{+}" dans la page d'accueil du consultant médical, il lui apparait la calendrier du mois actuel pour sélectionner ses jours de travail, ensuite l'écran dans lequel il doit définie les horaires de travail. Cependant, il a la possibilité de voir les horaires sélectionnés au cas où il souhaite en supprimer ou en modifier un. 
+\begin{figure}[h]
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-163902_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-163911_HomeDoct}
+	\includegraphics[scale=0.2]{D:/NTFS 3/Mon_master/M2/S4/Caputures_d_ecran_de_l_application/Screenshot_20210906-163922_HomeDoct}
+	\centering
+	\caption{Interfaces de mise à jour d'emploi du temps.}
+	\label{Figure 5.9}
+\end{figure}
