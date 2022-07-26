@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  26 JUL 2022 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  26 JUL 2022 13:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,28 +994,38 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-))
+) [6
+
+])
 \tf@toc=\write5
 \openout5 = `document.toc'.
 
 
-(./Template LaTeX/TeXFiles/Introduction.tex [6
-
-]
+(./Template LaTeX/TeXFiles/Introduction.tex [7]
 Chapitre 1.
-[7
+[8
 
-] [8]) (./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex)
-(./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [9]
+] [9]) (./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex [10]
 Chapitre 2.
-[10
+File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_lo
+go.png Graphic file (type png)
+<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_log
+o.png>
+Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
+aTeX/Images/cado_logo.png  used on input line 6.
+(pdftex.def)             Requested size: 361.14679pt x 58.31747pt.
+[11
+
+]) (./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [12]
+Chapitre 3.
+[13
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--18
 
  []
 
-[11]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
@@ -1030,9 +1040,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
-[12]
+[15]
 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.jpeg,
- id=138, 2055.68pt x 764.8575pt>
+ id=162, 2055.68pt x 764.8575pt>
 File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.
 jpeg Graphic file (type jpg)
 <use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.j
@@ -1045,7 +1055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-[13 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.j
+[16 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.j
 peg>]
 Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
@@ -1066,13 +1076,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--92
 
  []
 
-[14]
+[17]
 Overfull \hbox (92.85461pt too wide) in paragraph at lines 97--99
 \T1/cmr/m/n/12 lignent l'im-por-tance de la co-localisation, seul XP le rend dé
 -ci-sif. Voir le site []https://manifesto.co.uk/kanban-
  []
 
-[15]
+[18]
 Overfull \hbox (25.19995pt too wide) in paragraph at lines 125--139
 [][] 
  []
@@ -1082,12 +1092,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--142
 
  []
 
-[16] [17]
+[19] [20]
 Overfull \hbox (25.19995pt too wide) in paragraph at lines 151--161
 [][] 
  []
 
-[18]
+[21]
 Overfull \hbox (23.12651pt too wide) in paragraph at lines 177--179
 []\T1/cmr/m/n/12 Android Stu-dio est l'IDE of-fi-ciel pour le sys-tème d'ex-plo
 i-ta-tion An-droid de Google,construit
@@ -1105,7 +1115,7 @@ Overfull \hbox (25.19995pt too wide) in paragraph at lines 187--198
  []
 
 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png, id
-=210, 702.625pt x 401.5pt>
+=232, 702.625pt x 401.5pt>
 File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.pn
 g Graphic file (type png)
 <use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png
@@ -1118,7 +1128,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--206
 
  []
 
-[19]) [20 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mv
+[22]) [23 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mv
 c2.png>] (./document.aux)
 
  *File List*
@@ -1284,6 +1294,8 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
 ./Template LaTeX/TeXFiles/Introduction.tex
 ./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex
+/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.png
+
 ./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex
 /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.jpeg
 /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png
@@ -1295,13 +1307,13 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ### semi simple group (level 1) entered at line 23 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25694 strings out of 478287
- 435754 string characters out of 5849290
- 829265 words of memory out of 5000000
- 43313 multiletter control sequences out of 15000+600000
+ 25708 strings out of 478287
+ 435881 string characters out of 5849290
+ 829318 words of memory out of 5000000
+ 43317 multiletter control sequences out of 15000+600000
  484695 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,131p,1117b,2407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,12n,131p,1117b,2504s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/us
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts
 /type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
@@ -1312,10 +1324,10 @@ r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfti1200.pfb>
-Output written on document.pdf (21 pages, 815187 bytes).
+Output written on document.pdf (24 pages, 817517 bytes).
 PDF statistics:
- 361 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 394 PDF objects out of 1000 (max. 8388607)
+ 334 compressed objects within 4 object streams
+ 105 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 
