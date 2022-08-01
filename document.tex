@@ -3,18 +3,28 @@
 %-----------------------------------------------------------------------  01
 \usepackage[pdftex]{graphicx}
 \usepackage{graphics}
-\usepackage{fancyhdr} 
+%\usepackage{fancyhdr} 
 %----------------------------------------------------------------------   02
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks,
+	citecolor=blue,
+	filecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue
+}
 \usepackage{array}
 
 \usepackage{makecell, amssymb, amsthm, mathtools, rotating, colortbl, enumitem, nomencl, latexsym, bookmark, url, subcaption, float, multirow, algorithm, algorithmic, color}
 \usepackage{arabtex, utf8}
 %\setcode{utf8}
-
 \usepackage[nomain, acronym]{glossaries}
+
+
+
 
 %-----------------------------------------------------------------------   03
 \linespread{1.5}
@@ -72,7 +82,7 @@
 		\hbox{
 			\hspace*{5cm}
 			\includegraphics[width=150px]{/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.png}
-		} 
+		}
 		\end{figure}
 		
 		\begin{center}
@@ -151,6 +161,7 @@
 	\textbf{OCR} : Optical Character Recognition  \newline
 	\textbf{MRZ} : Machine-Readable Zone  
 	\thispagestyle{empty}
+	
 	\tableofcontents
 	\thispagestyle{empty}
 	\input{./Template LaTeX/TeXFiles/Introduction}
