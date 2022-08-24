@@ -1,25 +1,29 @@
-\chapter{Environnement de travail}
+\chapter{Environnement de développement}
 \label{sec:EnvironnementDeTravail}
-L'objectif de ce chapitre consiste à expliciter tous les éléments relatifs à l'environnement logiciel sur lequel j'ai travaillé pour réaliser cette application. Il s'agit donc des logiciels, langages, frameworks, et motifs d'architecture auxquels j'ai fait recours tout au long du processus de mise en œuvre de ma solution.
+Durant la réalisation de ce projet, nous avons essayé d’utiliser différents
+outils de développement, d’une part afin de rendre la tâche de la
+réalisation plus facile, d’autre part pour que notre système soit robuste et
+répond parfaitement a nos besoins , et que nos interfaces soient claires et
+faciles à utiliser.
 \section{Gestion du projet}
-Dans cette section, je présente la méthodologie de travail et le logiciel de gestion de projet que j'ai utilisé pour déclencher, organiser et gérer le travail sur ma solution.
+Cette section est pour la présentation de mé-stratégie de fonctionnement et le programme de gestion de projets que j'ai utilisé pour lancer, structurer et gérer le travail sur ma solution.
 \subsection{Méthodologie de travail}
-C'est la manière de mener un processus de développement. Il s’agit d’une démarche, un ensemble d’étapes ou procédures à mettre en œuvre dans une logique méthodologique, accompagnés d’outils et de techniques. L'utilisation d'une méthode est incontournable dans l'entreprise de tout projet, particulièrement dans la réalisation de projets informatiques. Dans ce cas-ci, les méthodes utilisées sont des méthodes d'analyse et de conception qui ont pour but la formalisation des étapes préliminaires au développement de systèmes logiciels, en d'autres termes : analyse, modélisation et conception. \newline
-L'urgence de l'utilisation de ces méthodes trouve son explication dans un certain nombre de facteurs :
+C'est la façon de conduire un processus de développement. Il s’agit d'un procédé un assemblage d’étapes ou procédures à mettre en œuvre dans un raisonnement méthodologique, accompagné d’outils et de techniques. L' application d'une méthode est incontournable dans l'entreprise de tout projet, spécialement dans la réalisation de projets informatiques. \newline
+L'obligation de l'utilisation de ces méthodes trouve sa justification dans un certain nombre de facteurs :
 \begin{enumerate}
-	\item De nombreux échecs de projets informatiques dans le passé dus à un manque d'organisation, ou une non satisfaction des besoins ;
-	\item La révolution de l'industrie logicielle engendrée par les échecs informatiques et qui introduit de nouveaux facteurs de validation de la qualité logicielle : le génie logiciel ;
-	\item Les nombreuses exigences liées au coût, aux délais et à la complexité des projets informatiques.
+	\item Plusieurs projets informatiques dans les passes sont échoués gras à un manque d'organisation ou la non-satisfaction des besoins;
+	\item La révolte de l'industrie des applications provoquée par des défaillances logicielles qui ont introduit de nouveaux éléments pour assurer la qualité des applications : le génie logiciel ;
+	\item Diverses exigences liées au coût, au temps et aux complexités des logiciels informatiques.
 \end{enumerate}
 
-L'utilisation de méthodes de développement de logiciels permet ainsi l'élaboration de systèmes informatiques de manière fiable et viable tout en répondant à l'ensemble des exigences du client et du génie logiciel.
+L'application de procédé de développement de logiciels permet ainsi la préparation de systèmes informatiques de manière crédible et faisable tout en répondant à l'ensemble des obligations du client et du génie logiciel.
 \newline \newline
-Il existe plusieurs méthodes de développement informatique. L’on distingue deux approches : l’approche traditionnelle et l’approche agile. Les deux approches se distinguent essentiellement dans la manière de décomposer le projet. Les méthodes cartésiennes ou fonctionnelles ou encore traditionnelles se sont imposées les premières.
+Il existe diverses méthodes de développement informatique. J'illustre deux approches : l’approche traditionnelle et l’approche agile. Les deux approches se distinguent  dans la façon de diviser le projet. Les méthodes  rationnelles ou opérationnelles ou encore traditionnelles se sont imposé les premier.
 \subsubsection{L'approche traditionnelle}
-Cette approche s’inspire directement de l’architecture des ordinateurs. Les méthodes traditionnelles prônent une démarche strictement planifiée avec une séquence d’activités bien définie. La succession des activités et le planning doivent être clairement respectés et aucun changement n’est permis. Il est attendu du client une spécification des besoins globale, détaillée, claire, précise et validée en entrée. Ainsi, tout doit être prévisible, du début du projet à la livraison du produit, d’où l’appellation de méthodes prédictives. \newline
-Selon le planning adopté, les méthodes cartésiennes proposent plusieurs modèles d’exécution des activités du projet :
+Cette approche s’aviser directement de l’architecture des ordinateurs. Les méthodes traditionnelles prêchent une démarche purement planifiée avec un enchaînement d'activités bien définies. La suite des activités et le plan doivent être clairement respectés et aucun changement n’est permis. Il est prévu du client une norme des besoins globaux, détaillée, claire, précise et validée en entrée. Ainsi, tout doit être prévisible, du début du projet à la livraison du produit, d’où l’appellation de méthodes prédictives. \newline
+D'après le plan approuvé les méthodes cartésiennes proposent plusieurs modèles d’exécution des activités du projet :
 \begin{enumerate}
-	\item Le \textbf{modèle en cascade} : dans ce modèle, le processus de développement est découpé séquentiellement et de façon linéaire selon les activités intrinsèques du cycle de vie du développement logiciel : l’analyse, la conception, le codage et les tests. Le plan de déroulement des phases (planification prédictive) est élaboré en tout début de processus. Le passage à une phase donnée n’est fait que si le résultat de la phase précédente a été validé et jugé satisfaisant par le client et les utilisateurs.
+	\item Le \textbf{modèle en cascade} : Sur ce modèle, la procédure de développement est découpée séquentiellement et de façon linéaire selon les activités intégrales du cycle de vie du développement logiciel : l’analyse, la conception, le codage et les tests. Le plan de déavancement des phases (planification prédictive) est établi en tout début de processus. La transition à une phase donnée n’est fait que si le résultat de la phase précédente a été validé et estimé satisfaisant par le client et les utilisateurs.
 	\item Le \textbf{modèle en V} : Le cycle en V est à la base de tout développement logiciel, il en représente les activités intrinsèques. Il tient d'avantage compte de la réalité que le modèle en cascade, le processus de développement n’est pas réduit à un enchainement de tâches séquentielles. Le modèle en V permet d’anticiper sur les phases ultérieures de développement du produit en particulier les plans de test de qualifications et de performance.
 \end{enumerate}
 Parmi les méthodes traditionnelles, nous pouvons citer : SADT, CORIG, …
@@ -52,7 +56,7 @@ Cette méthode qualifie un ensemble de rôles, d’instruments de gestion et de 
 \end{enumerate}
 La figure \ref{Scrum} montre l’articulation générale de Scrum. \newline
 \begin{figure}[h]
-	\includegraphics[width=15cm, height=5cm]{/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.jpeg}
+	\includegraphics[width=15cm, height=5cm]{./Template LaTeX/Images/scrum1.jpeg}
 	\centering
 	\caption{Articulation générale de la méthode Scrum}
 	\label{Scrum}
@@ -199,7 +203,7 @@ L'objectif du motif MVC (Model-View-Controller ou Modèle-Vue-Contrôleur) est u
 \end{table}
 \newline La figure ci-dessous explique les moments d'intervention de chaque couche du motif MVC.
 \begin{figure}[h]
-	\includegraphics[width=15cm, height=8cm]{/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png}
+	\includegraphics[width=15cm, height=8cm]{./Template LaTeX/Images/mvc2.png}
 	\centering
 	\caption{Rôle des trois couches logicielles du motif MVC}
 \end{figure}

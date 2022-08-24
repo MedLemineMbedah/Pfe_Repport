@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  1 AUG 2022 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  24 AUG 2022 16:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,45 +914,34 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/share/texlive/texmf-dist/tex/latex/arabtex/alocal.sty
 (ArabTeX) 3.11 local stub, 26.02.2006)
 (ArabTeX) version 3.11s (02.07.2006): second phase of patching)
-</home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/ISCAE.jpg, i
-d=4, 335.75438pt x 288.3272pt>
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/ISCAE.j
-pg Graphic file (type jpg)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/ISCAE.jp
-g>
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/ISCAE.jpg  used on input line 39.
+<./Template LaTeX/Images/ISCAE.jpg, id=4, 335.75438pt x 288.3272pt>
+File: ./Template LaTeX/Images/ISCAE.jpg Graphic file (type jpg)
+<use ./Template LaTeX/Images/ISCAE.jpg>
+Package pdftex.def Info: ./Template LaTeX/Images/ISCAE.jpg  used on input line 
+39.
 (pdftex.def)             Requested size: 100.37537pt x 86.19525pt.
-</home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/logoUniv.jpg
-, id=6, 293.898pt x 303.534pt>
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/logoUni
-v.jpg Graphic file (type jpg)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/logoUniv
-.jpg>
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/logoUniv.jpg  used on input line 41.
+<./Template LaTeX/Images/logoUniv.jpg, id=6, 293.898pt x 303.534pt>
+File: ./Template LaTeX/Images/logoUniv.jpg Graphic file (type jpg)
+<use ./Template LaTeX/Images/logoUniv.jpg>
+Package pdftex.def Info: ./Template LaTeX/Images/logoUniv.jpg  used on input li
+ne 41.
 (pdftex.def)             Requested size: 80.3003pt x 82.93253pt.
-</home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.pn
-g, id=7, 2579.6375pt x 416.55624pt>
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_lo
-go.png Graphic file (type png)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_log
-o.png>
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/cado_logo.png  used on input line 84.
+<./Template LaTeX/Images/cado_logo.png, id=7, 2579.6375pt x 416.55624pt>
+File: ./Template LaTeX/Images/cado_logo.png Graphic file (type png)
+<use ./Template LaTeX/Images/cado_logo.png>
+Package pdftex.def Info: ./Template LaTeX/Images/cado_logo.png  used on input l
+ine 84.
 (pdftex.def)             Requested size: 150.56305pt x 24.31218pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/mohamed/mes_fichier/
-CADORIM/LaTeX/pfe/Template LaTeX/Images/ISCAE.jpg> </home/mohamed/mes_fichier/C
-ADORIM/LaTeX/pfe/Template LaTeX/Images/logoUniv.jpg> </home/mohamed/mes_fichier
-/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.png>]pdfTeX warning (ext4): 
-destination with the same identifier (name{page.1}) has been already used, dupl
-icate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Template LaTeX/Images/IS
+CAE.jpg> <./Template LaTeX/Images/logoUniv.jpg> <./Template LaTeX/Images/cado_l
+ogo.png>]pdfTeX warning (ext4): destination with the same identifier (name{page
+.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.99 		\chapter
-               *{REMERCIEMENTS} \label{chap:1REMERCIEMENTS} [1
+l.100 		\chapter
+                *{REMERCIEMENTS} \label{chap:1REMERCIEMENTS} [1
 
 ] [2
 
@@ -962,163 +951,184 @@ l.99 		\chapter
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 139--164
+Underfull \hbox (badness 10000) in paragraph at lines 145--170
 
  []
 
 [5
 
 ] (./document.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-) [6
-
-])
+))
 \tf@toc=\write5
 \openout5 = `document.toc'.
 
 
-(./Template LaTeX/TeXFiles/Introduction.tex [7]
+(./Template LaTeX/TeXFiles/Introduction.tex [6
+
+]
 Chapitre 1.
-[8
+[7
 
-] [9]) (./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex [10]
+] [8]) (./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex [9]
 Chapitre 2.
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_lo
-go.png Graphic file (type png)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_log
-o.png>
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/cado_logo.png  used on input line 6.
+File: ./Template LaTeX/Images/cado_logo.png Graphic file (type png)
+<use ./Template LaTeX/Images/cado_logo.png>
+Package pdftex.def Info: ./Template LaTeX/Images/cado_logo.png  used on input l
+ine 6.
 (pdftex.def)             Requested size: 361.14679pt x 58.31747pt.
-[11
+[10
 
-]) (./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [12]
+]
+<./Template LaTeX/Images/gantt.png, id=113, 1766.6pt x 382.42876pt>
+File: ./Template LaTeX/Images/gantt.png Graphic file (type png)
+<use ./Template LaTeX/Images/gantt.png>
+Package pdftex.def Info: ./Template LaTeX/Images/gantt.png  used on input line 
+36.
+(pdftex.def)             Requested size: 501.86887pt x 175.65675pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+
+Overfull \hbox (46.62476pt too wide) in paragraph at lines 33--40
+[] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [11 <./Template LaTeX/I
+mages/gantt.png>] [12]
 Chapitre 3.
 [13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--41
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 [15]
-</home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.jpeg,
- id=162, 2055.68pt x 764.8575pt>
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.
-jpeg Graphic file (type jpg)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.j
-peg>
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/scrum1.jpeg  used on input line 55.
+<./Template LaTeX/Images/scrum1.jpeg, id=157, 2055.68pt x 764.8575pt>
+File: ./Template LaTeX/Images/scrum1.jpeg Graphic file (type jpg)
+<use ./Template LaTeX/Images/scrum1.jpeg>
+Package pdftex.def Info: ./Template LaTeX/Images/scrum1.jpeg  used on input lin
+e 59.
 (pdftex.def)             Requested size: 426.78091pt x 142.25502pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-[16 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.j
-peg>]
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+[16 <./Template LaTeX/Images/scrum1.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--92
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--96
 
  []
 
 [17]
-Overfull \hbox (92.85461pt too wide) in paragraph at lines 97--99
+Overfull \hbox (92.85461pt too wide) in paragraph at lines 101--103
 \T1/cmr/m/n/12 lignent l'im-por-tance de la co-localisation, seul XP le rend dé
 -ci-sif. Voir le site [][]https://manifesto.co.uk/kanban-
  []
 
 [18]
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 125--139
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 129--143
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--142
+Underfull \hbox (badness 10000) in paragraph at lines 123--146
 
  []
 
 [19] [20]
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 151--161
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 155--165
 [][] 
  []
 
 [21]
-Overfull \hbox (23.12651pt too wide) in paragraph at lines 177--179
+Overfull \hbox (23.12651pt too wide) in paragraph at lines 181--183
 []\T1/cmr/m/n/12 Android Stu-dio est l'IDE of-fi-ciel pour le sys-tème d'ex-plo
 i-ta-tion An-droid de Google,construit
  []
 
 
-Overfull \hbox (148.5241pt too wide) in paragraph at lines 181--182
+Overfull \hbox (148.5241pt too wide) in paragraph at lines 185--186
 \T1/cmr/m/n/12 des ap-pli-ca-tions mo-biles. Pour en sa-voir plus, veillez vi-s
 i-ter le lien [][]https://en.wikipedia.org/wiki/MicrosoftVisualStudio[][]. 
  []
 
 
-Overfull \hbox (25.19995pt too wide) in paragraph at lines 187--198
+Overfull \hbox (25.19995pt too wide) in paragraph at lines 191--202
 [][] 
  []
 
-</home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png, id
-=232, 702.625pt x 401.5pt>
-File: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.pn
-g Graphic file (type png)
-<use /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png
->
-Package pdftex.def Info: /home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template L
-aTeX/Images/mvc2.png  used on input line 202.
+<./Template LaTeX/Images/mvc2.png, id=235, 702.625pt x 401.5pt>
+File: ./Template LaTeX/Images/mvc2.png Graphic file (type png)
+<use ./Template LaTeX/Images/mvc2.png>
+Package pdftex.def Info: ./Template LaTeX/Images/mvc2.png  used on input line 2
+06.
 (pdftex.def)             Requested size: 426.79945pt x 227.62596pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--206
+Underfull \hbox (badness 10000) in paragraph at lines 188--210
 
  []
 
-[22]) [23 </home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mv
-c2.png>] (./document.aux)
+[22]) [23 <./Template LaTeX/Images/mvc2.png>] (./document.aux)
 
  *File List*
   report.cls    2021/10/04 v1.4n Standard LaTeX document class
@@ -1272,20 +1282,19 @@ refcount.sty    2019/12/15 v3.6 Data extraction from label references (HO)
 gettitlestring.sty    2019/12/15 v1.6 Cleanup title references (HO)
 ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
   apatch.sty    2006/07/02  3.11s last minute patches 
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/ISCAE.jpg
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/logoUniv.jpg
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.png
-
+./Template LaTeX/Images/ISCAE.jpg
+./Template LaTeX/Images/logoUniv.jpg
+./Template LaTeX/Images/cado_logo.png
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
 ./Template LaTeX/TeXFiles/Introduction.tex
 ./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/cado_logo.png
-
+./Template LaTeX/Images/cado_logo.png
+./Template LaTeX/Images/gantt.png
 ./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/scrum1.jpeg
-/home/mohamed/mes_fichier/CADORIM/LaTeX/pfe/Template LaTeX/Images/mvc2.png
+./Template LaTeX/Images/scrum1.jpeg
+./Template LaTeX/Images/mvc2.png
  ***********
 
  )
@@ -1294,13 +1303,13 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ### semi simple group (level 1) entered at line 33 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 25536 strings out of 478287
- 433402 string characters out of 5849290
- 826415 words of memory out of 5000000
- 43150 multiletter control sequences out of 15000+600000
+ 25537 strings out of 478287
+ 432310 string characters out of 5849290
+ 826423 words of memory out of 5000000
+ 43153 multiletter control sequences out of 15000+600000
  484695 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,12n,131p,1117b,2501s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,12n,131p,1117b,2407s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/us
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts
 /type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
@@ -1311,10 +1320,10 @@ r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfti1200.pfb>
-Output written on document.pdf (24 pages, 817719 bytes).
+Output written on document.pdf (24 pages, 865007 bytes).
 PDF statistics:
- 394 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 105 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 384 PDF objects out of 1000 (max. 8388607)
+ 322 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 
