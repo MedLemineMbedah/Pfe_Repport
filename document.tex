@@ -17,6 +17,8 @@
 	urlcolor=blue
 }
 \usepackage{array}
+\usepackage{tabularx}
+\usepackage{titlesec}
 
 \usepackage{makecell, amssymb, amsthm, mathtools, rotating, colortbl, enumitem, nomencl, latexsym, bookmark, url, subcaption, float, multirow, algorithm, algorithmic, color}
 \usepackage{arabtex, utf8}
@@ -29,6 +31,10 @@
 %-----------------------------------------------------------------------   03
 \linespread{1.5}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% fix Subsection Error %%%%%%%%%%%%%
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+\usepackage{lipsum}
 
 \begin{document} 
 	\begin{titlepage}
@@ -173,5 +179,6 @@
 	\input{./Template LaTeX/TeXFiles/Introduction}
 	\input{./Template LaTeX/TeXFiles/PresentationDeLaSociete}
 	\input{./Template LaTeX/TeXFiles/EnvironnementDeTravail}
+	
 	
 \end{document}

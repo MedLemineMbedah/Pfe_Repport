@@ -1,213 +1,168 @@
-\chapter{Environnement de développement}
+\chapter{Environnement de travail}
 \label{sec:EnvironnementDeTravail}
 Durant la réalisation de ce projet, nous avons essayé d’utiliser différents
 outils de développement, d’une part afin de rendre la tâche de la
 réalisation plus facile, d’autre part pour que notre système soit robuste et
 répond parfaitement a nos besoins , et que nos interfaces soient claires et
 faciles à utiliser.
-\section{Gestion du projet}
-Cette section est pour la présentation de mé-stratégie de fonctionnement et le programme de gestion de projets que j'ai utilisé pour lancer, structurer et gérer le travail sur ma solution.
-\subsection{Méthodologie de travail}
-C'est la façon de conduire un processus de développement. Il s’agit d'un procédé un assemblage d’étapes ou procédures à mettre en œuvre dans un raisonnement méthodologique, accompagné d’outils et de techniques. L' application d'une méthode est incontournable dans l'entreprise de tout projet, spécialement dans la réalisation de projets informatiques. \newline
-L'obligation de l'utilisation de ces méthodes trouve sa justification dans un certain nombre de facteurs :
-\begin{enumerate}
-	\item Plusieurs projets informatiques dans les passes sont échoués gras à un manque d'organisation ou la non-satisfaction des besoins;
-	\item La révolte de l'industrie des applications provoquée par des défaillances logicielles qui ont introduit de nouveaux éléments pour assurer la qualité des applications : le génie logiciel ;
-	\item Diverses exigences liées au coût, au temps et aux complexités des logiciels informatiques.
-\end{enumerate}
-
-L'application de procédé de développement de logiciels permet ainsi la préparation de systèmes informatiques de manière crédible et faisable tout en répondant à l'ensemble des obligations du client et du génie logiciel.
-\newline \newline
-Il existe diverses méthodes de développement informatique. J'illustre deux approches : l’approche traditionnelle et l’approche agile. Les deux approches se distinguent  dans la façon de diviser le projet. Les méthodes  rationnelles ou opérationnelles ou encore traditionnelles se sont imposé les premier.
-\subsubsection{L'approche traditionnelle}
-Cette approche s’aviser directement de l’architecture des ordinateurs. Les méthodes traditionnelles prêchent une démarche purement planifiée avec un enchaînement d'activités bien définies. La suite des activités et le plan doivent être clairement respectés et aucun changement n’est permis. Il est prévu du client une norme des besoins globaux, détaillée, claire, précise et validée en entrée. Ainsi, tout doit être prévisible, du début du projet à la livraison du produit, d’où l’appellation de méthodes prédictives. \newline
-D'après le plan approuvé les méthodes cartésiennes proposent plusieurs modèles d’exécution des activités du projet :
-\begin{enumerate}
-	\item Le \textbf{modèle en cascade} : Sur ce modèle, la procédure de développement est découpée séquentiellement et de façon linéaire selon les activités intégrales du cycle de vie du développement logiciel : l’analyse, la conception, le codage et les tests. Le plan de déavancement des phases (planification prédictive) est établi en tout début de processus. La transition à une phase donnée n’est fait que si le résultat de la phase précédente a été validé et estimé satisfaisant par le client et les utilisateurs.
-	\item Le \textbf{modèle en V} : Le cycle en V est à la base de tout développement logiciel, il en représente les activités intrinsèques. Il tient d'avantage compte de la réalité que le modèle en cascade, le processus de développement n’est pas réduit à un enchainement de tâches séquentielles. Le modèle en V permet d’anticiper sur les phases ultérieures de développement du produit en particulier les plans de test de qualifications et de performance.
-\end{enumerate}
-Parmi les méthodes traditionnelles, nous pouvons citer : SADT, CORIG, …
-\subsubsection{L'approche agile}
-Cette approche est définie par les concepts suivants : la simplicité, la légèreté, la souplesse, un lien fort avec le client. C’est dans cette optique que certains apparentent le développement agile aux notions de flexibilité, de rétroaction et d’adaptation au changement rapide et continu.
-\newline
-Une méthode agile est une approche itérative et incrémentale, qui est menée dans un esprit collaboratif avec juste ce qu’il faut de formalisme. Elle génère un produit de haute qualité tout en prenant en compte l’évolution des besoins des clients et en anticipant sur les risques. Il y’a continuellement des aller et retour avec le client. L’application logicielle est livrée par version incrémentale. Les versions successives sont aussi fiables que le livrable final en termes de tests et de validation. En quelque sorte le processus est déroulé comme un enchaînement de « mini-cascades ». A chaque nouvelle itération, l’ensemble de l’architecture et de la conception logicielle est reconsidéré, le code est retravaillé.
-\newline
-Les méthodes agiles aspirent donc à améliorer la réactivité et l’adaptabilité des sociétés de logiciels et constituent un moyen de survie dans un environnement instable en s’accompagnant des valeurs suivantes :
-\begin{enumerate}
-	\item Les individus et les interactions plutôt que les processus et les outils;
-	\item L’application fonctionnelle plutôt que la documentation compréhensive;
-	\item La collaboration avec le client plutôt que la négociation des contrats;
-	\item La réponse au changement plutôt que le suivi d’un plan.
-	\newline
-\end{enumerate}
-L’agilité comprend plusieurs courants de pensée qui ont conduits à des méthodes différentes, reposant sur les mêmes concepts mais présentant des singularités. Les méthodes Scrum, Kanban, et XP (eXtreme Programming) sont des exemples de ces méthodes.
-\newline\newline
-
-\textbf{La méthode SCRUM}
-\newline
-\textbf{Scrum} est une méthode agile de gestion de projet qui permet de produire la plus grande valeur métier dans la durée la plus courte. Elle a pour objectif d’améliorer la cohésion de l’équipe et la rapidité du processus de développement. Le nom Scrum renvoie à une pratique généralement connue au rugby signifiant la « mêlée ». \newline
-Cette méthode qualifie un ensemble de rôles, d’instruments de gestion et de pratiques managériales favorisant un environnement basé sur la transparence, l’inspection, le suivi et l’adaptation. Le cycle de vie d’un projet Scrum peut être découpé en trois parties :
-\begin{enumerate}
-	\item Phase d'\textbf{initiation ou démarrage} : il s’agit d’une phase linéaire où l’on définit le périmètre fonctionnel du système et la liste des fonctionnalités (\textbf{Backlog}) agencées par ordre de priorité, d’effort, de complexité et de risque. C’est aussi à ce niveau que l’architecture est définie.
-	
-	\item Phase de \textbf{développement} est un processus empirique : le projet est découpé en cycles itératifs d’une durée de deux semaines ou \textbf{sprints}. Chaque sprint regroupe une ou plusieurs fonctionnalités du Backlog. Tout au long de cette phase, le travail réalisé est mesuré et contrôlé et une amélioration constante du prototype est faite.
-	
-	\item Phase de \textbf{Clôtures} est une phase linéaire de gestion de la livraison du produit final.
-\end{enumerate}
-La figure \ref{Scrum} montre l’articulation générale de Scrum. \newline
-\begin{figure}[h]
-	\includegraphics[width=15cm, height=5cm]{./Template LaTeX/Images/scrum1.jpeg}
-	\centering
-	\caption{Articulation générale de la méthode Scrum}
-	\label{Scrum}
-\end{figure}
-Les responsabilités managériales sont réparties sur trois rôles fondamentaux :
-\begin{enumerate}
-	\item \textbf{Scrum Master}
-	\item \textbf{Product Owner}
-	\item \textbf{Équipe Scrum}
-	\newline
-\end{enumerate}
-Les artéfacts et pratiques de Scrum
-\begin{enumerate}
-	\item \textbf{Product Backlog} : état courant des tâches à accomplir;
-	\item \textbf{Sprint} : itération de deux semaines;
-	\item \textbf{Effort-Estimation} : permanente sur les entrées du Backlog;
-	\item \textbf{Sprint Backlog} : Product Backlog limité au sprint en cours;
-	\item \textbf{Daily Scrum Meeting} : ce qui a été fait, ce qui reste à faire;
-	\item \textbf{Sprint Review Meeting} : Présentation des résultats du Sprint. \ref{Scrum}
-	\newline \newline \newline
-\end{enumerate}
-\textbf{SCRUM contre KANBAN}
-\newline
-Scrum est plus prescriptif que Kanban, qui évite de définir les rôles et les équipes et qui n’a pas de structure formelle de réunions. Kanban ne prescrit pas non plus d’itérations – bien qu’elles puissent être incorporées si vous le souhaitez. \newline
-Les techniques de visualisation des processus de Kanban le rendent idéal pour les équipes colocalisées qui travaillent sur un backlog d’éléments sujets à des changements fréquents (par exemple, Kanban est souvent utilisé par les équipes de support). \newline
-Le tableau Kanban est cependant souvent adopté par les équipes Scrum sous la forme d’un tableau de tâches et est utilisé pour suivre la progression tout au long d’un sprint. \newline
-La limite de la règle Work In Progress dans Kanban la rend également adaptée aux équipes ayant des ressources limitées ou lorsque l’entrée de chaque membre est requise sur chaque élément. Cela pourrait s’appliquer, par exemple, à une équipe de communication au sein d’une grande organisation. \newline
-Alors que Scrum limite la quantité de travail dans chaque sprint, la charge de travail est déterminée par l’estimation relative de la taille de chaque histoire (en points) et est approuvée par l’équipe Scrum à chaque session de planification. \newline
-Alors qu’une équipe Kanban suit le « temps de cycle » et optimise les délais d’exécution aussi courts et prévisibles que possible, une équipe Scrum vise à améliorer son rendement sur les sprints successifs et à améliorer la « vélocité » de l’équipe (le nombre de points d’estimation relatifs complétés dans un sprint). Cela rend sans doute Scrum plus adapté à la mise à l’échelle – il semble certainement plus familier et prévisible, ce qui peut être rassurant pour les grandes organisations. \newline\newline
-\textbf{SCRUM contre XP}
-\newline
-Dans Scrum, les équipes et les réunions sont assez gravées dans le marbre \footnote{Dans l’antiquité, les engagements pour la constructions de bâtiments importants étaient gravés sur des plaques de marbre (Athènes : arsenal du Pirée, Delphes). Les travaux s’étendant sur de nombreuses années, on ne pouvait faire confiance aux tablettes de cire ou aux papyrus. Sur ces plaques, on définissait par exemple la grandeur du bâtiment ou le montant des amendes pour les retards. Ce qui n’était pas « gravé dans le marbre » n’était donc pas contractuel. Voir le lien \href{https://fr.wiktionary.org/wiki/graver_dans_le_marbre}{https://fr.wiktionary.org/wiki/graver-dans-le-marbre}} alors que la question de savoir comment le travail est réellement fait est laissée aux équipes pour décider elles-mêmes. XP, d’autre part, est livré avec un ensemble de pratiques de base qui pourraient sembler accablantes pour le débutant Agile. \newline
-On pourrait dire que Scrum est une méthodologie, qui est plus concernée par la productivité tandis que XP est plus préoccupé par l’ingénierie. \newline
-La valeur que les pratiques XP peuvent ajouter est incontestable et de nombreuses organisations qui utilisent Scrum adoptent la programmation par paires, le développement piloté par les tests et le refactoring comme des pratiques qui améliorent la qualité, accélèrent le processus de publication et / ou réduisent le besoin de revoir le travail en raison de la dette technique. \newline
-Outre les itérations plus courtes, d’autres éléments importants qui différencient XP de Scrum sont les suivants :
-\begin{enumerate}
-	\item Les équipes XP travaillent sur des éléments dans un ordre de priorité strict alors qu’une équipe Scrum ne s’attaque pas nécessairement à chaque élément dans l’ordre de priorité une fois dans le sprint;
-	\item Les équipes XP peuvent intégrer de nouveaux éléments de travail dans une itération et changer d’éléments de taille équivalente (tant qu’ils n’ont pas été démarrés) si le client décide d’une nouvelle priorité.
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\end{enumerate}
-En termes de similitudes, le rôle du client dans XP est très similaire à celui du Product Owner dans Scrum – en ce sens qu’ils aident à écrire des user stories, à les hiérarchiser et sont toujours disponibles pour les développeurs – bien que moins bien définis. \newline
-Scrum et XP imposent tous deux une réunion debout quotidienne. Bien que les deux soulignent l’importance de la co-localisation, seul XP le rend décisif. Voir le site \href{https://manifesto.co.uk/kanban-vs-scrum-vs-xp-an-agile-comparison/}{https://manifesto.co.uk/kanban-vs-scrum-vs-xp-an-agile-comparison/}.
-
-
-\subsection{Logiciel de gestion du projet : Trello}
-Trello est un outil de gestion de projet en ligne, lancé en septembre 2011 et inspiré par la méthode Kanban. Il repose sur une organisation des projets en planches listant des cartes, chacune représentant des tâches. Les cartes sont assignables à des utilisateurs et sont mobiles d'une planche à l'autre, traduisant leur avancement. Pour en savoir plus, veillez visiter le lien \href{https://fr.wikipedia.org/wiki/Trello}{https://fr.wikipedia.org/wiki/Trello}.
-
+%\section{Gestion du projet}
+%Cette section est pour la présentation de mé-stratégie de fonctionnement et le programme de gestion de projets que j'ai utilisé pour lancer, structurer et gérer le travail sur ma solution.
 \section{Conception}
-Dans cette section, je présente le langage et le logiciel de modélisation que j'ai utilisé pour concevoir notre solution.
-
+Dans cette section, je présente le langage et le logiciel de modélisation que j’ai utilisé pour concevoir
+notre solution.
 \subsection{Langage de modélisation : UML}
-UML est un langage de modélisation orientée objet permettant aux développeurs de modéliser un système d’information en considérant plusieurs vues chacune reflétant un aspect comportemental \footnote{Diagramme de cas d’utilisation, diagramme d’activité, diagramme de séquence, diagramme d’interaction, etc.} ou structurel \footnote{Diagramme de classe, diagramme de composants, diagramme de déploiement, diagramme de structure composite, etc.} du système.
-\newline
-En effet, nous avons opté pour UML au détriment de la MERISE car nous avons besoin
-d’une approche de conception prenant en considération l’aspect orienté objet pour :
-\begin{enumerate}
-	\item Pouvoir mettre le focus sur le rôle temporel des instances d’objets lors de déclenchement desactions (à travers le diagramme de séquence) ;
-	\item Faciliter par la suite la génération des classes DAO à partir du diagramme de classes.
-\end{enumerate}
-Certes, UML est très riche en matière de modélisation et propose au total 13 diagrammes chacun fournissant une vision particulière du système à concevoir. Dans notre contexte, je me suis limités à 4 diagrammes explicités sur le tableau \ref{3.1}.
-
-\subsection{Logiciel de modélisation}
-Modelio est un logiciel open source et multiplateforme permettant, entre autres, la modélisation UML et Business Process Model and Notation (BPMN). Pour en savoir plus, veuillez visiter le lien \href{https://www.modelio.org/about-modelio/features.html}{https://www.modelio.org/about-modelio/features.html}.
-\newline
-Sans doute, les logiciels de modélisation UML sont nombreux, à savoir, Visual Paradigm, Eclipse Papyrus, StarUML, PowerDesigner, Umbrello, etc. Vu que les diagrammes UML que nous voulons réaliser sont disponibles dans tous ces logiciels, il n’y avait pas en effet un choix à argumenter car
-tous les choix étaient satisfaisants. Mais, de façon subjective, nous pouvons préciser que l’avantage de Modelio dans notre contexte est le fait que je m'y suis	 déjà habitués. Les diagrammes que nous avons réalisés avec Modelio sont ceux mentionnés ci-après.
-\newline\newline
-\begin{table}[h]
-	\begin{tabular}{|m{6cm}|m{10cm}|}
-		\hline
-		\textbf{Diagramme} & \textbf{Rôle} \\
-		\hline
-		Diagramme de cas d’utilisation & Présenter les acteurs du système, ses fonctionnalités, les relations entre les acteurs et entre les fonctionnalités. \\
-		\hline
-		Diagramme d’activité & Déterminer l’enchaînement des différentes étapes qui composent une fonctionnalité du système. \\
-		\hline
-		Diagramme de séquence & Fournir une vue détaillée du diagramme d’activité en mettant le focus sur l’ordre chronologique et sur les objets crées et les méthodes appelées. \\
-		\hline
-		Diagramme de classe & Représenter la structure interne du système sous forme de classes et d’interfaces et préciser les différentes relations entre elles. \\
-		\hline
+On a utilisé UML comme langage de modélisation.
+Langage de modélisation unifié UML (Unified modeling Langage) un
+consiste a modéliser une application logicielle d'une façon standard
+dans le cadre de conception orientée objet.
+UML consiste a couvrir le cycle de vie d'un logiciel depuis la
+spécification des besoins jusqu'au codage en offrant plusieurs
+moyens de description et de modélisation des acteurs.
+\subsection{Logiciel de modélisation} 
+Visual Paradigm Online est un outil de création de diagrammes en ligne. Vous pouvez créer un nombre illimité de diagrammes, graphiques et autres visuels à partir d’un large éventail de types de diagrammes, y compris UML, organigrammes, BPMN, ERD, DFD, ArchiMate et autres.\newline\newline
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Tests %%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{table}
 		
-	\end{tabular}
 	\caption{Rôles des diagrammes UML utilisés.}
-	\label{3.1}
+	\label{table:kysymys}
+\begin{tabular}{|c|p{11cm}|}
+	
+	\hline
+	\large \bfseries Diagramme & \large \bfseries Rôle\\
+	\hline
+	Diagramme de cas d’utilisation & Il consiste à donner une vision globale sur les principales fonctionnalités
+	(chaque fonctionnalité représente un cas d’utilisateur) d’une application .  \\
+	\hline
+	Diagramme d’activité &  Fournir une vue du comportement d'un système en décrivant la séquence d'actions d'un processus.    \\
+	\hline
+	Diagramme de séquence &Permettent d'identifier les classes requises par un système et le comportement des objets de classes au cours des interactions.  \\
+	\hline
+	Diagramme de classe    &Le diagramme de classes représente généralement un schéma utilisé en génie
+	logiciel pour modéliser un problème bien précis, sous forme des classes et des
+	interfaces ainsi que les différentes relations entre celles-ci. \\
+	\hline
+\end{tabular}
 \end{table}
-
+%Table \ref{table:kysymys} on page \pageref{table:kysymys} refers to the ...
 \section{Implémentation}
-Dans cette section, je présente les langages, les logiciels, les frameworks et les motifs d’architecture que j'ai utilisé.
-
+Durant la réalisation de ce projet, nous avons essayé d’utiliser différents
+outils de développement, d’une part afin de rendre la tâche de la
+réalisation plus facile, d’autre part pour que notre système soit robuste et
+répond parfaitement a nos besoins , et que nos interfaces soient claires et
+faciles à utiliser.
 \subsection{Front-end}
+C’est le développement coté client autrement dit la
+partie du code reçu par le client. On rappelle que le client désigne
+un navigateur web.
+On a choisi Flutter comme Framework pour développer la partie
+front de notre application mobile.
+Flutter est un framework de développement d’applications mobiles open source de Google. La principale raison de sa popularité est qu’il prend en charge la création 		   
+d’applications multiplateformes. Flutter est également utilisé pour créer des apps interactives qui s’exécutent sur des pages web ou sur le bureau.
 \subsubsection{Editeur de texte : VS Code}
-VS Code (Visual Studio Code) est un éditeur de code source réalisé par Microsoft pour Windows, Linux et macOS. [9] Les fonctionnalités incluent la prise en charge du débogage, lacoloration syntaxique, la saisie semi-automatique intelligente du code, les extraits de code, la refactorisation du code et Gitintégré. Les utilisateurs peuvent modifier le thème,les raccourcis clavier,les préférences et installer des extensions qui ajoutent des fonctionnalités supplémentaires. Pour en savoir plus, veillez visiter le lien \href{https://en.wikipedia.org/wiki/Visual_Studio_Code}{https://en.wikipedia.org/wiki/VisualStudioCode}.
-\subsubsection{Languages}
-\begin{table}[h]
-	\begin{tabular}{|m{6cm}|m{10cm}|}
-		\hline
-		\textbf{Langage} & \textbf{Contexte d’utilisation} \\
-		\hline
-		Dart & Création des applications moible\\
-		\hline
-		PHP  & Langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP\\
-		\hline
-		
-	\end{tabular}
-	\caption{Contexte d’utilisation des différents langages utilisés.}
-\end{table}
+VS Code (Visual Studio Code) est un éditeur de code source réalisé par Microsoft pour Win-
+dows, Linux et macOS. [9] Les fonctionnalités incluent la prise en charge du débogage, lacoloration
+syntaxique, la saisie semi-automatique intelligente du code, les extraits de code, la refactorisation du
+code et Gitintégré. Les utilisateurs peuvent modifier le thème,les raccourcis clavier,les préférences et
+installer des extensions qui ajoutent des fonctionnalités supplémentaires.\newline Pour en savoir plus, veillez
+visiter le lien : \href{https://en.wikipedia.org/wiki/VisualStudioCode}{https://en.wikipedia.org/wiki/VisualStudioCode}
+\subsubsection{Language : Dart}
+Dart est un langage de programmation open source à usage général. Il est initialement développé par Google. Dart est un langage orienté objet avec une syntaxe de C-style. Il prend en chargent les concepts de programmation tels que les interfaces, les classes, contrairement aux autres langages de programmation, Dart ne prend pas en charge les tableaux.
+Les collections Dart peuvent être utilisées pour répliquer des structures de données telles que des tableaux, des génériques et un typage facultatif.
+\newline Pour en savoir plus, veillez
+visiter le lien : \href{https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm}{https://www.tutorialspoint.com/flutter/dart}
 \subsubsection{Framework : Flutter}
-\label{Flutter}
-Flutter est un cadre de développement d’applications mobiles open source permettant de développer des applications mobiles natives Andriod et iOS en un seul code.
+Flutter est un framework de développement d’applications mobiles open source de Google. La principale raison de sa popularité est qu’il prend en charge la création 		   
+d’applications multiplateformes. Flutter est également utilisé pour créer des apps interactives qui s’exécutent sur des pages web ou sur le bureau.\newline
+\textbf {- Les caractéristiques de Flutter :}
 
-Flutter a été introduit par Google. La version stable de Flutter est Flutter 1.0 qui a été publiée le 4 décembre 2018. Le ciel est la première application Flutter qui a fonctionné dans l’OS Andriod. \href{https://www.claudebueno.com/technologies/introduction-a-flutter.htm}.
-\subsubsection{Framework Web :  Laravel}
-\label{Laravel}
-Laravel est un framework d'application Web avec une syntaxe expressive et élégante. Nous croyons que le développement doit être une expérience agréable et créative pour être vraiment épanouissante. Laravel tente de simplifier le développement en facilitant les tâches courantes utilisées dans la majorité des projets Web, telles que l'authentification, le routage, les sessions et la mise en cache.
+\begin{enumerate}
+	\item Base de code unique pour Android et iOS
+	\item Fonction de rechargement à chaud (hot reload)
+	\item Open-source et par Google
+	\item Programmation Dart \newline \newline \newline
+\end{enumerate}
 
-Laravel vise à rendre le processus de développement agréable pour le développeur sans sacrifier les fonctionnalités de l'application. Les développeurs heureux font le meilleur code. À cette fin, nous avons tenté de combiner le meilleur de ce que nous avons vu dans d'autres frameworks Web, y compris des frameworks implémentés dans d'autres langages, tels que Ruby on Rails, ASP.NET MVC et Sinatra.
-
-Laravel est accessible, mais puissant, fournissant des outils puissants nécessaires pour les applications volumineuses et robustes. Une superbe inversion du conteneur de contrôle, un système de migration expressif et une prise en charge des tests unitaires étroitement intégrée vous offrent les outils dont vous avez besoin pour créer n'importe quelle application qui vous est confiée.
-\href{https://laravel.com/docs/4.2/introduction#laravel-philosophy}.
+\textbf {- Architecture d’une application Flutter :}\newline \newline \newline
+\includegraphics[width=400px,height=200px]{./Template LaTeX/Images/Flutter_architect.png}
 \subsubsection{IDE : Android Studio}
-Android Studio est l’IDE officiel pour le système d’exploitation Android de Google,construit sur le logiciel IntelliJ IDEA de JetBrainset conçu spécifiquement pour le développement Android. Pour en savoir plus veillez visiter le lien \newline \href{https://en.wikipedia.org/wiki/Android_Studio}{https://en.wikipedia.org/wiki/AndroidStudio}. \newline
-Essentiellement, je l'ai utilisé pour lancer l'application sur android.
+Android Studio est un environnement de développement pour développer des applications mobiles Android. Il est basé sur IntelliJ IDEA et utilise le moteur de production Gradle. Il peut être téléchargé sous les systèmes d'exploitation Windows, macOS, Chrome OS et Linux.
+\newline Pour en savoir plus, veillez
+visiter le lien : \href{https://en.wikipedia.org/wiki/AndroidStudio.}{https://en.wikipedia.org/wiki/AndroidStudio.}
 \subsection{Back-End}
-\subsubsection{IDE : Visual Studio}
-Microsoft Visual Studio est un IDE de Microsoft. Il est utilisé pour développer des programmes informatiques, ainsi que des sites Web, des applications Web, des services Web et des applications mobiles. Pour en savoir plus, veillez visiter le lien \href{https://en.wikipedia.org/wiki/Microsoft_Visual_Studio}{https://en.wikipedia.org/wiki/MicrosoftVisualStudio}.
+C’est le développement cote serveur c’est-à-dire la partie du code exécutée par le serveur.
+\subsubsection{Language : PHP}
+PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.
+
+Il a été conçu pour permettre la création d'applications dynamiques, le plus souvent développées pour le Web. PHP est le plus souvent couplé à un serveur Apache bien qu'il puisse être installé sur la plupart des serveurs HTTP tels que IIS ou nginx. Ce couplage permet de récupérer des informations issues d'une base de données, d'un système de fichiers (contenu de fichiers et de l'arborescence) ou plus simplement des données envoyées par le navigateur afin d'être interprétées ou stockées pour une utilisation ultérieure.
+\newline Pour en savoir plus, veillez
+visiter le lien : \href{https://fr.wikipedia.org/wiki/PHP}{https://fr.wikipedia.org/wiki/PHP}
+
+\subsubsection{Serveur Web : Amazon Web Services (AWS)}
+Amazon Web Services (AWS) est la plateforme cloud la plus complète et la plus largement adoptée au monde. Elle propose plus de 200 services complets issus de centres de données du monde entier. Des millions de clients (dont certaines des startups les plus dynamiques au monde, de très grandes entreprises et des agences fédérales de premier plan) utilisent AWS pour réduire leurs coûts, gagner en agilité et innover plus rapidement.
+\newline Pour en savoir plus, veillez
+visiter le lien : \href{https://aws.amazon.com/fr/what-is-aws/#:~:text=Amazon%20Web%20Services%20(AWS)%20est,de%20donn%C3%A9es%20du%20monde%20entier.}{https://aws.amazon.com/fr/what-is-aws}
+
+\subsubsection{Framework :Laravel}
+Laravel est un framework web open-source écrit en  \href{https://fr.wikipedia.org/wiki/PHP}{PHP} respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet. Laravel est distribué sous \href{https://fr.wikipedia.org/wiki/Licence_MIT}{licence MIT}, avec ses sources hébergées sur 
+\href{https://fr.wikipedia.org/wiki/GitHub}{GitHub}.
+\subsubsection{SGBD MariaDB}
+Un gestionnaire de base de données libre.
+ce projet est assurée par la fondation Maria DB, et sa
+maintenance par la société Monty Program AB, créateur du
+projet, il confère au logiciel l'assurance de rester libre. MariaDB a
+plusieurs et différentes versions. Ells s'articulent sur le code
+source de MySQL de la version 5.1 aux versions plus récentes
+(comme la 5.6 fin 2012). Un serveur qui stocke les données dans
+des tables séparées plutôt que de tout rassembler dans une seule
+table. Du coup il améliore la rapidité et la souplesse de
+l'ensemble.
+\subsection{Motifs d’architecture logicielle}
 \subsubsection{MVC}
-\label{3.3.3.1}
-L'objectif du motif MVC (Model-View-Controller ou Modèle-Vue-Contrôleur) est un modèle dans la conception de logiciels. Il met l'accent sur la séparation entre la logique métier et l'affichage du logiciel. Cette «séparation des préoccupations» permet une meilleure répartition du travail et une maintenance améliorée. Le tableau ci-dessous en présente une explication.
-\newline\newline
-\begin{table}[h]
-	\begin{tabular}{|m{6cm}|m{10cm}|}
-		\hline
-		\textbf{Couche logicielle} & \textbf{Rôle} \\
-		\hline
-		Modèle & Gère les données et la logique métier \\
-		\hline
-		Vue & Gère la disposition et l'affichage \\
-		\hline
-		contrôleur & Chemine les commandes des parties "model" et "view" \\
-		\hline
-	\end{tabular}
-	\caption{Rôle des trois couches logicielles du motif MVC.}
-\end{table}
-\newline La figure ci-dessous explique les moments d'intervention de chaque couche du motif MVC.
-\begin{figure}[h]
-	\includegraphics[width=15cm, height=8cm]{./Template LaTeX/Images/mvc2.png}
-	\centering
-	\caption{Rôle des trois couches logicielles du motif MVC}
+Le patron de conception MVC est l’une des bases du Framework
+laravel, c’est-à-dire modèle-vue- contrôleur. L’interaction avec la
+base de données est assurée par le Model, les regroupe, traite et
+gère les données.
+Pour faire afficher ce que le modèle renvoie on fait appelle a la vue .
+elle s’occupe d’autre part de la réception de toute interaction de
+l’utilisateur. Ce sont ces actions-là que le contrôleur gère.
+Ainsi que l’échange entre le modèle et la vue. Il intercepte toutes les
+activités de utilisateur et, en fonction de ces activités, il actionne les
+changements à effectuer sur l'application.
+Les composants sont séparés en ces trois catégories précédentes
+permet une clarté de architecture des dossiers et simplifie
+grandement la tâche aux développeurs.
+\begin{figure}[h!]
+	\includegraphics[width=15cm, height=8cm]{./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png}
+	\caption{MVC}
+	\label{fig:birds}
 \end{figure}
-\section{Sécurité}
-Dans cette section, je présente les algorithmes et techniques de chiffrement que nous avons
-utilisés pour sécuriser davantage l'application.
-\subsection{Hachage des mots de passe}
+\newline \newline \newline
+\textbf{Les fichiers sont organisés comme suit :}
+\begin{enumerate}
+	\item [-] \textbf{Route (Dispatcher) : }il contient les définitions des chemins d’entrées pour l’utilisateur,
+	autrement dit les URI possibles et les dirige sur la classe définit dans
+	le contrôleur qui doit traiter l’information.
+	\item [-] \textbf{ Modèle : }pour chaque table de notre base de données que l’on veut
+	utiliser pour notre application, il faut créer un modèle pour chacun.
+	Ainsi nous avons ici un modèle de notre application. Il permet de
+	décrire la méthode d’accès aux données de la base, tous cela à
+	travers un objet définit par ORM Eloquent(Object-Relational
+	Mapping).
+	\item [-] \textbf{Contrôleur : } il permet de récupérer les informations du modèle et de l’envoyer
+	vers la vue pour la mise en forme.
+	\item [-] \textbf{Vue : } la vue réceptionne la réponse qui est envoyée par le
+	contrôleur .\newline
+\end{enumerate}
+Ce figure ci-dessous résume en quelque sort le fonctionnement de
+notre application.
+L’api est considéré comme l’intermédiaire entre la partie données
+(base de données) et la partie présentation (Application mobile).
+\begin{figure}[h!]
+	\includegraphics[width=15cm, height=8cm]{./Template LaTeX/Images/php-mysql-rest-api-for-android.png}
+	\caption{PHP MySQL REST API pour Android}
+	\label{fig:birds}
+\end{figure}
+\newline \newline \newline
+
+
+
