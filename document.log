@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  16 SEP 2022 12:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  16 SEP 2022 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1337,7 +1337,7 @@ l.119 		\chapter
 [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 173--198
+Underfull \hbox (badness 10000) in paragraph at lines 173--201
 
  []
 
@@ -1385,7 +1385,7 @@ ine 6.
 [12
 
 ]
-<./Template LaTeX/Images/gantt.png, id=178, 1766.6pt x 382.42876pt>
+<./Template LaTeX/Images/gantt.png, id=190, 1766.6pt x 382.42876pt>
 File: ./Template LaTeX/Images/gantt.png Graphic file (type png)
 <use ./Template LaTeX/Images/gantt.png>
 Package pdftex.def Info: ./Template LaTeX/Images/gantt.png  used on input line 
@@ -1401,166 +1401,170 @@ Overfull \hbox (46.62476pt too wide) in paragraph at lines 33--40
 [] 
  []
 
-) (./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [13 <./Template LaTeX/I
-mages/gantt.png>]
+) (./Template LaTeX/TeXFiles/Analyse.tex [13 <./Template LaTeX/Images/gantt.png
+>]
 Chapitre 3.
-[14
+) (./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex [14
 
 ]
-<./Template LaTeX/Images/use_case.png, id=196, 1628.0825pt x 1031.855pt>
+Chapitre 4.
+[15
+
+]
+<./Template LaTeX/Images/use_case.png, id=212, 1628.0825pt x 1031.855pt>
 File: ./Template LaTeX/Images/use_case.png Graphic file (type png)
 <use ./Template LaTeX/Images/use_case.png>
 Package pdftex.def Info: ./Template LaTeX/Images/use_case.png  used on input li
-ne 54.
+ne 60.
 (pdftex.def)             Requested size: 512.15312pt x 597.51588pt.
 
-Overfull \hbox (56.90901pt too wide) in paragraph at lines 54--55
+Overfull \hbox (56.90901pt too wide) in paragraph at lines 60--61
 [][] 
  []
 
-<./Template LaTeX/Images/ins_act.png, id=197, 1411.2725pt x 1627.07875pt>
+[16 <./Template LaTeX/Images/use_case.png (PNG copy)>]
+<./Template LaTeX/Images/ins_act.png, id=217, 1411.2725pt x 1627.07875pt>
 File: ./Template LaTeX/Images/ins_act.png Graphic file (type png)
 <use ./Template LaTeX/Images/ins_act.png>
 Package pdftex.def Info: ./Template LaTeX/Images/ins_act.png  used on input lin
-e 64.
-(pdftex.def)             Requested size: 512.14923pt x 569.03922pt.
+e 71.
+(pdftex.def)             Requested size: 512.14923pt x 540.58725pt.
 
-Overfull \hbox (56.90512pt too wide) in paragraph at lines 64--65
+Overfull \hbox (56.90512pt too wide) in paragraph at lines 71--72
 [][] 
  []
 
-[15 <./Template LaTeX/Images/use_case.png (PNG copy)>] [16 <./Template LaTeX/Im
-ages/ins_act.png (PNG copy)>]
-<./Template LaTeX/Images/trans_act.png, id=206, 1607.00375pt x 1989.4325pt>
+[17 <./Template LaTeX/Images/ins_act.png (PNG copy)>]
+<./Template LaTeX/Images/trans_act.png, id=222, 1607.00375pt x 1989.4325pt>
 File: ./Template LaTeX/Images/trans_act.png Graphic file (type png)
 <use ./Template LaTeX/Images/trans_act.png>
 Package pdftex.def Info: ./Template LaTeX/Images/trans_act.png  used on input l
-ine 72.
-(pdftex.def)             Requested size: 512.16743pt x 597.5022pt.
+ine 80.
+(pdftex.def)             Requested size: 512.16743pt x 569.0584pt.
 
-Overfull \hbox (56.92332pt too wide) in paragraph at lines 72--73
+Overfull \hbox (56.92332pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
-[17 <./Template LaTeX/Images/trans_act.png (PNG copy)>]
-<./Template LaTeX/Images/auth_act.png, id=211, 1417.295pt x 1627.07875pt>
+[18 <./Template LaTeX/Images/trans_act.png (PNG copy)>]
+<./Template LaTeX/Images/auth_act.png, id=228, 1417.295pt x 1627.07875pt>
 File: ./Template LaTeX/Images/auth_act.png Graphic file (type png)
 <use ./Template LaTeX/Images/auth_act.png>
 Package pdftex.def Info: ./Template LaTeX/Images/auth_act.png  used on input li
-ne 79.
-(pdftex.def)             Requested size: 512.15054pt x 597.49117pt.
+ne 88.
+(pdftex.def)             Requested size: 512.15054pt x 569.03922pt.
 
-Overfull \hbox (56.90643pt too wide) in paragraph at lines 79--80
+Overfull \hbox (56.90643pt too wide) in paragraph at lines 88--89
 [][] 
  []
 
-[18 <./Template LaTeX/Images/auth_act.png (PNG copy)>]
-<./Template LaTeX/Images/Diagramme_de_classe.png, id=217, 1528.71124pt x 1519.6
+<./Template LaTeX/Images/Diagramme_de_classe.png, id=229, 1528.71124pt x 1519.6
 775pt>
 File: ./Template LaTeX/Images/Diagramme_de_classe.png Graphic file (type png)
 <use ./Template LaTeX/Images/Diagramme_de_classe.png>
 Package pdftex.def Info: ./Template LaTeX/Images/Diagramme_de_classe.png  used 
-on input line 88.
-(pdftex.def)             Requested size: 512.1506pt x 597.51822pt.
+on input line 99.
+(pdftex.def)             Requested size: 512.1506pt x 569.06609pt.
 
-Overfull \hbox (56.9065pt too wide) in paragraph at lines 88--89
+Overfull \hbox (56.9065pt too wide) in paragraph at lines 99--100
 [][] 
  []
 
-[19 <./Template LaTeX/Images/Diagramme_de_classe.png (PNG copy)>]
-Chapitre 4.
+[19 <./Template LaTeX/Images/auth_act.png (PNG copy)>] [20 <./Template LaTeX/Im
+ages/Diagramme_de_classe.png (PNG copy)>]
+Chapitre 5.
 
-Overfull \hbox (1.75063pt too wide) in paragraph at lines 117--123
+Overfull \hbox (1.75063pt too wide) in paragraph at lines 128--134
 \T1/cmr/m/n/12 Pour en sa-voir plus, veillez vi-si-ter le lien : [][]https://en
 .wikipedia.org/wiki/VisualStudioCode[][] 
  []
 
-[20
+[21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-[21]
-<./Template LaTeX/Images/Flutter_architect.png, id=236, 777.90625pt x 449.68pt>
+[22]
+<./Template LaTeX/Images/Flutter_architect.png, id=252, 777.90625pt x 449.68pt>
 
 File: ./Template LaTeX/Images/Flutter_architect.png Graphic file (type png)
 <use ./Template LaTeX/Images/Flutter_architect.png>
 Package pdftex.def Info: ./Template LaTeX/Images/Flutter_architect.png  used on
- input line 143.
+ input line 154.
 (pdftex.def)             Requested size: 401.5105pt x 200.74852pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--147
+Underfull \hbox (badness 10000) in paragraph at lines 152--158
 
  []
 
-[22 <./Template LaTeX/Images/Flutter_architect.png>]
-<./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png, id=248, 301.12
+[23 <./Template LaTeX/Images/Flutter_architect.png>]
+<./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png, id=264, 301.12
 5pt x 194.97844pt>
 File: ./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png Graphic fi
 le (type png)
 <use ./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png>
 Package pdftex.def Info: ./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_
--_fr.png  used on input line 195.
+-_fr.png  used on input line 206.
 (pdftex.def)             Requested size: 426.83315pt x 227.62997pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--202
+Underfull \hbox (badness 10000) in paragraph at lines 192--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--202
+Underfull \hbox (badness 10000) in paragraph at lines 192--213
 
  []
 
-[23] [24 <./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 213--215
+[24] [25 <./Template LaTeX/Images/Modèle-vue-contrôleur_(MVC)_-_fr.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
-<./Template LaTeX/Images/php-mysql-rest-api-for-android.png, id=259, 414.04688p
+<./Template LaTeX/Images/php-mysql-rest-api-for-android.png, id=276, 414.04688p
 t x 186.6975pt>
 File: ./Template LaTeX/Images/php-mysql-rest-api-for-android.png Graphic file (
 type png)
 <use ./Template LaTeX/Images/php-mysql-rest-api-for-android.png>
 Package pdftex.def Info: ./Template LaTeX/Images/php-mysql-rest-api-for-android
-.png  used on input line 222.
+.png  used on input line 233.
 (pdftex.def)             Requested size: 426.80156pt x 227.63101pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 228--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 228--238
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--227
+Underfull \hbox (badness 10000) in paragraph at lines 228--238
 
  []
 
-) (./Template LaTeX/TeXFiles/Realisation.tex [25 <./Template LaTeX/Images/php-m
+) (./Template LaTeX/TeXFiles/Realisation.tex [26 <./Template LaTeX/Images/php-m
 ysql-rest-api-for-android.png>]
-Chapitre 5.
-<./Template LaTeX/Images/architect_after_edit.png, id=264, 1027.84pt x 656.4525
+Chapitre 6.
+<./Template LaTeX/Images/architect_after_edit.png, id=281, 1027.84pt x 656.4525
 pt>
 File: ./Template LaTeX/Images/architect_after_edit.png Graphic file (type png)
 <use ./Template LaTeX/Images/architect_after_edit.png>
@@ -1575,24 +1579,24 @@ Overfull \hbox (28.45242pt too wide) in paragraph at lines 17--18
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26
+[27
 
 ]
-<./Template LaTeX/Images/1.jpg, id=273, 1084.05pt x 2252.415pt>
+<./Template LaTeX/Images/1.jpg, id=289, 1084.05pt x 2252.415pt>
 File: ./Template LaTeX/Images/1.jpg Graphic file (type jpg)
 <use ./Template LaTeX/Images/1.jpg>
 Package pdftex.def Info: ./Template LaTeX/Images/1.jpg  used on input line 34.
 (pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-<./Template LaTeX/Images/2.jpg, id=274, 1084.05pt x 2252.415pt>
+<./Template LaTeX/Images/2.jpg, id=290, 1084.05pt x 2252.415pt>
 File: ./Template LaTeX/Images/2.jpg Graphic file (type jpg)
 <use ./Template LaTeX/Images/2.jpg>
 Package pdftex.def Info: ./Template LaTeX/Images/2.jpg  used on input line 40.
 (pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-) (./Template LaTeX/TeXFiles/Interface.tex [27 <./Template LaTeX/Images/archite
-ct_after_edit.png>] [28 <./Template LaTeX/Images/1.jpg> <./Template LaTeX/Image
+) (./Template LaTeX/TeXFiles/Interface.tex [28 <./Template LaTeX/Images/archite
+ct_after_edit.png>] [29 <./Template LaTeX/Images/1.jpg> <./Template LaTeX/Image
 s/2.jpg>]
-Chapitre 6.
-) [29
+Chapitre 7.
+) [30
 
 ] (./document.aux)
 
@@ -1794,6 +1798,7 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ./Template LaTeX/TeXFiles/PresentationDeLaSociete.tex
 ./Template LaTeX/Images/cado_logo.png
 ./Template LaTeX/Images/gantt.png
+./Template LaTeX/TeXFiles/Analyse.tex
 ./Template LaTeX/TeXFiles/EnvironnementDeTravail.tex
 ./Template LaTeX/Images/use_case.png
 ./Template LaTeX/Images/ins_act.png
@@ -1819,13 +1824,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 52 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 37805 strings out of 478287
- 695480 string characters out of 5849290
- 1140415 words of memory out of 5000000
- 55147 multiletter control sequences out of 15000+600000
+ 37826 strings out of 478287
+ 695897 string characters out of 5849290
+ 1140524 words of memory out of 5000000
+ 55158 multiletter control sequences out of 15000+600000
  483937 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 110i,10n,131p,1117b,2723s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 110i,10n,131p,1117b,2745s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/us
 r/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts
 /type1/public/cm-super/sfbi1200.pfb></usr/share/texmf/fonts/type1/public/cm-sup
@@ -1835,10 +1840,10 @@ type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-supe
 r/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/t
 ype1/public/cm-super/sfti1200.pfb>
-Output written on document.pdf (30 pages, 1752195 bytes).
+Output written on document.pdf (31 pages, 1757753 bytes).
 PDF statistics:
- 463 PDF objects out of 1000 (max. 8388607)
- 386 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 500000)
- 368 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 500 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 416 words of extra memory for PDF output out of 10000 (max. 10000000)
 

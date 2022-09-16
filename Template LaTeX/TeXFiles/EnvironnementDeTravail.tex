@@ -1,13 +1,19 @@
-\chapter{Conception du projet}
-\label{sec:EnvironnementDeTravail}
+%\chapter{Conception du projet}
+%\label{sec:EnvironnementDeTravail}
+\chapter{Analyse fonctionnelle et conceptuelle}
+\label{sec:Analyse fonctionnelle et conceptuelle}
 %Durant la réalisation de ce projet, nous avons essayé d’utiliser différents
 %outils de développement, d’une part afin de rendre la tâche de la
 %réalisation plus facile, d’autre part pour que notre système soit robuste et
 %répond parfaitement a nos besoins , et que nos interfaces soient claires et
 %faciles à utiliser.
 
-\section{Choix de langage de modélisation :}
+%\section{Choix de langage de modélisation :}
+\section{Analyse fonctionnelle}
 %Dans cette section, je présente le langage et le logiciel de modélisation que j’ai utilisé pour concevoir notre solution.
+\begin{comment}
+	content...
+
 \subsection{UML}
 On a utilisé UML comme langage de modélisation.
 Langage de modélisation unifié UML (Unified modeling Langage) un
@@ -57,35 +63,40 @@ Visual Paradigm  en ligne est un outil de création de diagrammes en ligne. Vous
 	
 	
 \end{figure}
+\newpage
 \subsection{Diagramme d’activité}
-
-Le diagramme d’activité qu’illustre la figure 3.2 décrit le cas d’utilisation « Créer un compte ».
+\subsubsection{Création de compte}
+Le diagramme d’activité qu’illustre la figure 4.2 décrit le cas d’utilisation « Créer un compte ».
 \begin{figure}[h!]
-	\includegraphics[width=18cm, height=20cm]{./Template LaTeX/Images/ins_act.png}
+	\includegraphics[width=18cm, height=19cm]{./Template LaTeX/Images/ins_act.png}
 \caption{Diagramme d’activité : Création de compte}
 \label{fig3:activite}
 \end{figure}
 \newpage
-Le diagramme d’activité qu’illustre la figure 3.3 décrit les différentes actions ou enchainements
+\subsubsection{Transfert d'argent}
+Le diagramme d’activité qu’illustre la figure 4.3 décrit les différentes actions ou enchainements
 effectués lors d’une opération de transfert d’argent.
 \begin{figure}[h!]
-	\includegraphics[width=18cm, height=21cm]{./Template LaTeX/Images/trans_act.png}
+	\includegraphics[width=18cm, height=20cm]{./Template LaTeX/Images/trans_act.png}
 	\caption{Diagramme d'activité : Transfert d'argent}
 	\label{fig3:activite}
 \end{figure}
 \newpage
-Le diagramme d’activité qu’illustre la figure 3.4 décrit le cas d’utilisation « Authentification ».
+\subsubsection{Authentification}
+Le diagramme d’activité qu’illustre la figure 4.4 décrit le cas d’utilisation « Authentification ».
 \begin{figure}[h!]
-	\includegraphics[width=18cm, height=21cm]{./Template LaTeX/Images/auth_act.png}
-	\caption{Diagramme d'activité : Authentificationt}
+	\includegraphics[width=18cm, height=20cm]{./Template LaTeX/Images/auth_act.png}
+	\caption{Diagramme d'activité : Authentification}
 	\label{fig3:activite}
 \end{figure}
-\newpage
+
+
+\section{Modélisation de la base de données}
 %\subsection{Diagramme de séquence}
 %\newpage
 \subsection{Diagramme de classe}
 \begin{figure}[h!]
-	\includegraphics[width=18cm, height=21cm]{./Template LaTeX/Images/Diagramme_de_classe.png}
+	\includegraphics[width=18cm, height=20cm]{./Template LaTeX/Images/Diagramme_de_classe.png}
 	\caption{Diagramme d'activité : Transfert d'argent}
 	\label{fig3:class}
 \end{figure}
