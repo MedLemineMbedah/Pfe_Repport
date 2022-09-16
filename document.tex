@@ -37,6 +37,18 @@
 \usepackage{lipsum}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% bloc of comment %%%%%%%%%%%%%%%%5
 \usepackage{verbatim}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%best usage for fig%%%%%%%%%%%%%%%%%
+\usepackage{tikz}
+\usepackage[export]{adjustbox}
+
+\usepackage{caption}
+\usepackage[skip=1ex, belowskip=2ex]{subcaption}
+\newcommand{\xdownarrow}[1]{%
+	{\left\downarrow\vbox to #1{}\right.\kern-\nulldelimiterspace}
+}
+
 \begin{document} 
 	\begin{titlepage}
 		%------------------------------------------------------------------------  04
@@ -71,7 +83,7 @@
 					{\bf Mohamed Lemine Salem M’bedah (IE18689) }\\ \vspace{0.2cm}
 			\huge{\textbf{Thème}}\\ 
 			\noindent\rule{\textwidth}{1mm}
-			\Large{\bf{CREATION D’UN SYSTEME DE GESTION DE RELATION CLIENT (CRM)  ET DE KYC  \\ (KNOW YOUR CUSTOMER)}}
+			\Large{\bf{CREATION D’UN SYSTEME DE GESTION DE RELATION CLIENT (CRM) ET LA CONNAISSANCE CLIENT (KYC)}}
 			\noindent\rule{\textwidth}{1mm}
 		\end{center}
 		\vspace{0cm}
@@ -132,7 +144,9 @@
 	L’ISCAE compte deux (2) départements et dans le cadre de leur formation, les étudiants qui sont en fin de cycle sont tenus d’effectuer un stage pratique au sein d’une entreprise ou d’un service informatique.
 	\thispagestyle{empty}
 	\chapter*{RESUME} \label{chap:1Resumé}
-	Dans le cadre de l’obtention de notre diplôme de MASTER en Système d’information
+	\begin{comment}
+		content...
+	Dans le cadre de l’obtention de notre diplôme de MASTER en Informatique Appliquée à la Gestion (MPIAG)
 	à Institut Supérieur de comptabilité et d’administration des entreprises nous avons été
 	appelés à réaliser un projet de fin d’études afin de clôturer notre formation du second cycle
 	universitaire. C’est ainsi qu’on a eu l’occasion d’enrichir davantage nos connaissances
@@ -145,6 +159,13 @@
 	Le système de gestion de base de données (SGBD) est MySQL.
 	Il faut noter que pour modéliser et gérer les différents diagrammes UML l'outil
 	StarUML nous a été utile.
+	///////////////////////////////////////////
+		Le développement de ce deux systèmes s’est basé sur le
+	Processus Unifié (UP) comme méthode de modélisation et UML (Unified Modelling Language)
+	comme langage de modélisation.	
+		\end{comment}
+		Le but de ce travail est la reimagination de l'application CADORIM pour être à jour à l'évolution  technologie dans le monde. La start-up Cadorim qui exerce dans le domaine du transfert d’argent de l’Europe vers la Mauritanie a proposé de créer un system d'obtention  des informations de client  pour  la bonne connaissance au client (KYC) et de créer un system de gestion de relation client (CRM).Ce qui nécessite la reconstruction de l'application CADORIM, d'une part pour faciliter mon adaptation d'un l'environnement de travail  dans la société et d'autre part assure la bonne intégration de nouveaux changements.
+		\\La nouvelle version de l'application permettra la validation automatique des comptes clients d'une manière automatique.
 	
 	\thispagestyle{empty}
 	\chapter*{LISTE DES ABRÉVIATIONS} \label{chap:1SIGLES ET ABREVIATIONS}
@@ -176,10 +197,12 @@
 	\thispagestyle{empty}
 	
 	\tableofcontents
+	\listoffigures
 	\thispagestyle{empty}
 	\input{./Template LaTeX/TeXFiles/Introduction}
 	\input{./Template LaTeX/TeXFiles/PresentationDeLaSociete}
 	\input{./Template LaTeX/TeXFiles/EnvironnementDeTravail}
-	
+	\input{./Template LaTeX/TeXFiles/Realisation}
+	\input{./Template LaTeX/TeXFiles/Interface}
 	
 \end{document}
