@@ -202,8 +202,18 @@ grandement la tâche aux développeurs.
 	\item [-] \textbf{Vue : } la vue réceptionne la réponse qui est envoyée par le
 	contrôleur .\newline
 \end{enumerate}
+\subsubsection{Serveur Web : Amazon Web Services (AWS)}
+Amazon Web Services (AWS) est la plateforme cloud la plus complète et la plus largement adoptée au monde. Elle propose plus de 200 services complets issus de centres de données du monde entier. Des millions de clients (dont certaines des startups les plus dynamiques au monde, de très grandes entreprises et des agences fédérales de premier plan) utilisent AWS pour réduire leurs coûts, gagner en agilité et innover plus rapidement.
 
-
+\subsection{Conception}
+\subsubsection{Langage de modélisation : UML}
+On a utilisé UML comme langage de modélisation.
+Langage de modélisation unifié UML (Unified modeling Langage) un
+consiste a modéliser une application logicielle d'une façon standard
+dans le cadre de conception orientée objet.
+UML consiste a couvrir le cycle de vie d'un logiciel depuis la
+spécification des besoins jusqu'au codage en offrant plusieurs
+moyens de description et de modélisation des acteurs.
 
 
 
@@ -236,7 +246,7 @@ d’applications multiplateformes. Flutter est également utilisé pour créer d
 	\item Open-source et par Google
 	\item Programmation Dart \newline \newline \newline
 \end{enumerate}
-\newpage
+
 
 \textbf {- Architecture d’une application Flutter :} \newline \newline \newline
 \begin{figure}[h!]
@@ -247,7 +257,12 @@ d’applications multiplateformes. Flutter est également utilisé pour créer d
 \subsubsection{Laravel}
 Laravel est un framework web open-source écrit en  \href{https://fr.wikipedia.org/wiki/PHP}{PHP} respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet. Laravel est distribué sous \href{https://fr.wikipedia.org/wiki/Licence_MIT}{licence MIT}, avec ses sources hébergées sur 
 \href{https://fr.wikipedia.org/wiki/GitHub}{GitHub}.
-
+\begin{figure}[h!]
+	\includegraphics[width=400px,height=155px]{./Template LaTeX/Images/Laravel-MVC-framework.jpg}
+	\caption{Architecture de Laravel}
+	\label{fig:birds}
+\end{figure}
+\newpage
 \section{Implémentation}
 \subsection{Etape de réalisation}
 Pour réaliser notre système, il y a des étapes à élaborer dans l’ordre suivant :
@@ -309,12 +324,12 @@ Dans ce qui suit, nous présentons quelques écrans de notre produit final des a
 		\newpage
 		La demande d’identification du client est traitée pour vérifier ses paramètres dans la base de
 		données. L’absence de l’utilisateur dans la base de données ou une erreur de saisie des
-		informations entraine une alerte d’erreur d’authentification.
+		informations entraine une alerte d’erreur d’authentification.\newline
 		%%%%%%%%%%%%%%%%%%%%%%%%%% Inscruire %%%%%%%%%%%%%%%%%%%%%%5
 		\item \textbf{L’interface d’inscription :}
 		Avant de pouvoir s’authentifier, l’utilisateur doit
 		impérativement s’enregistrer au préalable dans la base de données. La figure suivante
-		représente l’interface de création de compte pour un client.
+		représente l’interface de création de compte pour un client.Toutes les informations personnelles sont extraites partir de scan de code MRZ.
 		\begin{figure}[!ht]
 			\centering
 			\begin{subfigure}{0.3\textwidth}
@@ -497,6 +512,18 @@ Dans ce qui suit, nous présentons quelques écrans de notre produit final des a
 	\caption{Profil de l'utilisateur
 	}
 	\label{fig:three graphs}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%MENU%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\item \textbf{L’interface de menu
+	:} À partir de cette fenêtre le client a l'accès aux autres fonctionalistes de l'application (Modifier mot de passe,changer la langue ....)
+\begin{figure}%
+	\centering
+	{{\includegraphics[width=5cm]{./Template LaTeX/Images/21.jpg} }}%
+	\caption{Interface de menu}%
+	\label{fig:example}%
 \end{figure}
 \end{itemize}
 
