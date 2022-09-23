@@ -1,52 +1,52 @@
 \babel@toc {french}{}\relax 
-\contentsline {chapter}{Introduction générale}{9}{chapter*.10}%
-\contentsline {chapter}{\numberline {1}Contexte général du projet}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Présentation du lieu de stage}{11}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Introduction}{11}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Missions}{12}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Organigramme}{12}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Description du projet}{13}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Problématiques}{13}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Objectifs}{13}{subsection.1.2.2}%
-\contentsline {chapter}{\numberline {2}Analyse fonctionnelle et conceptuelle}{14}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Analyse fonctionnelle}{14}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Diagramme de cas d’utilisation}{15}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Diagramme d’activité}{16}{subsection.2.1.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.1}Création de compte}{16}{subsubsection.2.1.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.2.2}Transfert d'argent}{17}{subsubsection.2.1.2.2}%
-\contentsline {subsubsection}{\numberline {2.1.2.3}Authentification}{18}{subsubsection.2.1.2.3}%
-\contentsline {section}{\numberline {2.2}Modélisation de la base de données}{19}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Diagramme de classe}{19}{subsection.2.2.1}%
-\contentsline {chapter}{\numberline {3}L’implémentation}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Environnement de travail}{20}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Environnement logiciel}{20}{subsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Editeur de texte : VS Code}{20}{subsubsection.3.1.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.2}IDE : Android Studio}{20}{subsubsection.3.1.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.1.3}Git}{21}{subsubsection.3.1.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.1.4}Le SGBD Firebase}{21}{subsubsection.3.1.1.4}%
-\contentsline {paragraph}{\numberline {3.1.1.4.1}Firebase Realtime Database :\newline }{22}{paragraph.3.1.1.4.1}%
-\contentsline {paragraph}{\numberline {3.1.1.4.2}Firebase Authentication :\newline }{22}{paragraph.3.1.1.4.2}%
-\contentsline {paragraph}{\numberline {3.1.1.4.3}Firebase Cloud Messaging (FCM) :\newline }{23}{paragraph.3.1.1.4.3}%
-\contentsline {paragraph}{\numberline {3.1.1.4.4}Cloud Firestore :\newline }{23}{paragraph.3.1.1.4.4}%
-\contentsline {subsubsection}{\numberline {3.1.1.5}SGBD MariaDB}{24}{subsubsection.3.1.1.5}%
-\contentsline {subsubsection}{\numberline {3.1.1.6}Logiciel de modélisation: Modelio}{24}{subsubsection.3.1.1.6}%
-\contentsline {subsubsection}{\numberline {3.1.1.7}Motifs d’architecture logicielle}{25}{subsubsection.3.1.1.7}%
-\contentsline {paragraph}{\numberline {3.1.1.7.1}MVC}{25}{paragraph.3.1.1.7.1}%
-\contentsline {subsubsection}{\numberline {3.1.1.8}Serveur Web : Amazon Web Services (AWS)}{26}{subsubsection.3.1.1.8}%
-\contentsline {subsection}{\numberline {3.1.2}Conception}{26}{subsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Langage de modélisation : UML}{26}{subsubsection.3.1.2.1}%
-\contentsline {section}{\numberline {3.2}Choix des outils de travail }{26}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Langages utilisés}{26}{subsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.1}Dart}{26}{subsubsection.3.2.1.1}%
-\contentsline {subsubsection}{\numberline {3.2.1.2}PHP}{27}{subsubsection.3.2.1.2}%
-\contentsline {subsection}{\numberline {3.2.2}Frameworks utilisés}{27}{subsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.2.1}Flutter}{27}{subsubsection.3.2.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2.2}Laravel}{28}{subsubsection.3.2.2.2}%
-\contentsline {section}{\numberline {3.3}Implémentation}{29}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Etape de réalisation}{29}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Interfaces Homme/Machine}{29}{subsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.2.1}Application CADORIM}{29}{subsubsection.3.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.3.2.2}Application ServiceClient}{38}{subsubsection.3.3.2.2}%
-\contentsline {chapter}{\numberline {4}Conclusion}{39}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusion générale et perspectives}{40}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Bibliographie}{41}{chapter.6}%
+\contentsline {chapter}{Introduction générale}{11}{chapter*.11}%
+\contentsline {chapter}{\numberline {1}Contexte général du projet}{13}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Présentation de l'organisme d'accueil}{13}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{13}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Missions}{14}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Organigramme}{14}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Cadre général du projet}{15}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Problématique }{15}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objectifs du projet}{15}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Planification du projet}{16}{subsection.1.2.3}%
+\contentsline {chapter}{\numberline {2}Analyse fonctionnelle et conceptuelle}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Analyse fonctionnelle}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Diagramme de cas d’utilisation}{18}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Diagramme d’activité}{19}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.1}Création de compte}{20}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.2.2}Transfert d'argent}{21}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {2.1.2.3}Authentification}{22}{subsubsection.2.1.2.3}%
+\contentsline {section}{\numberline {2.2}Modélisation de la base de données}{23}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Diagramme de classe}{23}{subsection.2.2.1}%
+\contentsline {chapter}{\numberline {3}L’implémentation}{24}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Environnement de travail}{24}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Environnement logiciel}{24}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Editeur de texte : VS Code}{24}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}IDE : Android Studio}{25}{subsubsection.3.1.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1.3}Git}{25}{subsubsection.3.1.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.1.4}Le SGBD Firebase}{26}{subsubsection.3.1.1.4}%
+\contentsline {paragraph}{\numberline {3.1.1.4.1}Firebase Realtime Database :\newline }{27}{paragraph.3.1.1.4.1}%
+\contentsline {paragraph}{\numberline {3.1.1.4.2}Firebase Authentication :\newline }{27}{paragraph.3.1.1.4.2}%
+\contentsline {paragraph}{\numberline {3.1.1.4.3}Firebase Cloud Messaging (FCM) :\newline }{28}{paragraph.3.1.1.4.3}%
+\contentsline {paragraph}{\numberline {3.1.1.4.4}Cloud Firestore :\newline }{28}{paragraph.3.1.1.4.4}%
+\contentsline {subsubsection}{\numberline {3.1.1.5}SGBD MariaDB}{29}{subsubsection.3.1.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.1.6}Logiciel de modélisation: Modelio}{29}{subsubsection.3.1.1.6}%
+\contentsline {subsubsection}{\numberline {3.1.1.7}Motifs d’architecture logicielle}{30}{subsubsection.3.1.1.7}%
+\contentsline {paragraph}{\numberline {3.1.1.7.1}MVC \newline }{30}{paragraph.3.1.1.7.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.8}Serveur Web : Amazon Web Services (AWS)}{31}{subsubsection.3.1.1.8}%
+\contentsline {subsection}{\numberline {3.1.2}Conception}{32}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Langage de modélisation : UML}{32}{subsubsection.3.1.2.1}%
+\contentsline {section}{\numberline {3.2}Choix des outils de travail }{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Langages utilisés}{32}{subsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.1}Dart}{32}{subsubsection.3.2.1.1}%
+\contentsline {subsubsection}{\numberline {3.2.1.2}PHP}{33}{subsubsection.3.2.1.2}%
+\contentsline {subsection}{\numberline {3.2.2}Frameworks utilisés}{33}{subsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2.1}Flutter}{33}{subsubsection.3.2.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2.2}Laravel}{35}{subsubsection.3.2.2.2}%
+\contentsline {section}{\numberline {3.3}Implémentation}{36}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Etape de réalisation}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Interfaces Homme/Machine}{36}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2.1}Application CADORIM}{36}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2.2}Application ServiceClient}{45}{subsubsection.3.3.2.2}%
+\contentsline {chapter}{Conclusion}{49}{chapter*.46}%
+\contentsline {chapter}{Bibliographie}{50}{chapter*.47}%

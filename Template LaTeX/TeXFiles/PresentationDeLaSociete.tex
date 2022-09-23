@@ -1,7 +1,8 @@
 \chapter{Contexte général du projet}
 %\chapter{Présentation de l’entreprise}
+Dans ce chapitre,nous présenterons le contexte général du projet qui sera décliné en deux parties : la premiére présentera la société d'accueil, et la seconde décrira le contexte,la  problématique,l'objectif attendu du projet ainsi que les fonctionnalités à mettre un place et la  planification de projet.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
 \label{chap:introduction}
-\section{Présentation du lieu de stage}
+\section{Présentation de l'organisme d'accueil}
 %\pagenumbering{arabic}
 \subsection{Introduction}
 \begin{figure}[h]
@@ -59,7 +60,7 @@ données provenant de la conception.
 \end{enumerate}
 \end{comment}
 \newpage
-\section{Description du projet}
+\section{Cadre général du projet}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% New add from Introduction %%%%%%%%%%%%%%%%%%%%%
 \begin{comment}
 	content...
@@ -81,19 +82,80 @@ KYC doivent être effectuées lors de l'intégration d'un nouveau client, mais i
 
 Un système CRM fournit des flux de travail automatisés qui permettent à votre équipe marketing de consacrer plus de temps à des tâches stratégiques, telles que la création de campagnes marketing qui résonnent, l'analyse des données de ces campagnes et le test de différentes approches basées sur ces analyses. Les agents du service client peuvent passer leur temps à travailler avec des clients qui ont des questions, des problèmes ou des besoins plus complexes. En bref, avec des processus de service client plus efficaces, les entreprises peuvent établir de meilleures relations avec leurs clients.
 \end{comment}
-\subsection{Problématiques}	
+\subsection{Problématique }	
+
+\begin{comment}
+	content...
 
 En réalité, la réalisation d'une application,qui applique le principe de KYC et integre un  système CRM,
 nécessite
 de faire face à des problématiques diverses et complexes. Ainsi, la société a décidé de se contenter,
 dans un premier temps, Mise en place d’un système d’extration des donnees à partir des images (carte d'identité ou passeport) et traitement des ces donnees.
 Ce sujet soulève de nombreuses questions aux implications différentes. Comment peut extraire le texte apartir de l'image? Comment sera-t-il traité ? Comment peut-il être utilisé dans le principe KYC ? Comment pouvons-nous obtenir un système CRM intégré ?
+\end{comment}
 
+Pour illustrer la couverture contre le risque de la fraude(de blanchiment, identité…),les sanctions(à cause du non respect de la réglementation),le risque juridique et fiscal.
+Et puisque que les sociétés  réalisent facilement plus de ventes grâce à l’utilisation d’un system CRM(Gestion de la Relation Client).\newline
+Agissant avec lucidité et consciente des évolutions que connaît son domaine, la société CADORIM a décidé de développer deux systèmes l'un pour lutte contre les fraudes financières, les usurpations d’identité, le blanchiment et il permet aussi de mieux connaître ses clients et d’en analyser les risques.
+En plus il  est aussi bien sûr un gage de sécurité supplémentaire offerte aux clients contre toute usurpation d’identité ou détournement d’un compte CADORIM. cette system quand il est bien implémenté, permet non seulement de prévenir les fraudes mais il va également améliorer l’expérience client en la rendant la vérification des informations plus simple et fluide, cette system est connue sous le nom KYC.
+Et l'autre collecte, enregistre et classifie les données liées aux clients d’une entreprise. Ses fonctionnalités permettent de gérer certains processus des fonctions ventes, clientèle et marketing.
+CRM permettant à une entreprise d'obtenir :
+\begin{itemize}[label=$\ast$]
+\item Une base de données clients partagée.
+\item Une plate-forme de travail pour les services commerciaux et marketing.
+\item Une source d’indicateurs quantitatifs pour piloter la gestion de l’activité.
+\end{itemize}
 
-\subsection{Objectifs}
+\subsection{Objectifs du projet}
 
+\begin{comment}
 La mise en place d'une application pour appliquer l'ide de KYC en basant sur les différent technologie disponible . En basan sur l'extraction du text apartir d'une imange OCR on peut extracter la code MRZ apartir d'une imange du piece d'idendite ou passport est passe le code a un algorithem qui permer de d'etecter les information personnel.
+\newpage
+\end{comment}
+L’objectif principal du projet est de concevoir et développer une solution mobile dont le but est
+de faciliter aux futurs utilisateurs la gestion de transfert d’argent. Le résultat de ce travail doit répondre aux objectifs fixés.
+Notre objectif général se décompose en différents objectifs spécifiques à savoir :
+\begin{itemize}[label=$\ast$]
+	\item \textbf{Faciliter le parcours d'inscription :} Le client renseigne un certain nombre d’informations via un formulaire. Ensuite, le client scan un document d’identité, via la caméra de son smartphone . Les informations sont ensuite analysées automatiquement.
+	
+	\item \textbf{Faciliter  le transfert d’argent :} Avec son téléphone, l’utilisateur pourra
+	envoyer l'argent à tout moment sans perdre du temps.
+	
+	
+	\item \textbf{Réduire  les coûts de transfert :} Avec une telle solution, l’idée est de
+	pouvoir envoyer de petites sommes d’argent donc il n’y aura pas lieu de payer des frais de transfert  exorbitants.
+	
+	
+	\item \textbf{Participer à la diversification des services de transfert d’argent :}Vu le nombre de
+	système de transfert d’argent déjà existant, l’idée n’est pas ici d’être leur concurrent
+	mais plutôt un complément des services qui sont sur le marché pour une bonne
+	satisfaction des clients.
+	
+	
+	\item \textbf{Ajouter une fenêtre de discussion  :}Pour améliorer l'expérience client .
 
+\end{itemize}
+%\subsection{Fonctionnalités à mettre en place }
+\subsection{Planification du projet}
+J'effectuais le diagramme de Gantt, pour avoir une meilleure compréhension de la chronologie des étapes de mon projet.
+\newline
+\newline
 
+\begin{figure}[h]
+	\includegraphics[scale=0.8,width=500px,height=175px]{./Template LaTeX/Images/gantt.png}
+	\centering
+	\caption{Diagramme de Gantt du projet}
+\end{figure}
+
+Le projet est subdivisé en plusieurs phases.
+\begin{enumerate}
+	\item Une phase comprenant l’étude de l’existant et analyse des besoins, en
+	intervenant les différents acteurs du projet.
+	\item Une phase de conception consistant à modéliser et formaliser les
+	données brutes du cahier de charge
+	\item Une phase d’implémentation consiste à traduire techniquement les
+	données provenant de la conception.
+	\item Déploiement : externalisation des ressources.
+\end{enumerate}
 
 

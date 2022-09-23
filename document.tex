@@ -8,6 +8,8 @@
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel}
+\usepackage{arabtex}
+\usepackage{utf8}
 \usepackage{hyperref}
 \hypersetup{
 	colorlinks,
@@ -47,6 +49,14 @@
 \usepackage[skip=1ex, belowskip=2ex]{subcaption}
 \newcommand{\xdownarrow}[1]{%
 	{\left\downarrow\vbox to #1{}\right.\kern-\nulldelimiterspace}
+}
+\newcommand{\differentchapter}[1]{%
+	\begingroup
+	\patchcmd{\@makeschapterhead}{50}{20}{}{}%
+	\patchcmd{\@makeschapterhead}{40}{70}{}{}%
+	\patchcmd{\@makeschapterhead}{\bfseries}{\centering\bfseries}{}{}%
+	\chapter*{#1}%
+	\endgroup
 }
 
 \begin{document} 
@@ -111,8 +121,67 @@
 	\end{titlepage}
 		\chapter*{DEDICACES} \label{chap:1Dedicaces}
 		%\addcontentsline{toc}{chapter}{DEDICACES} 
+		\begin{comment}
+			content...
+		
 		Les mots ne sauront traduire ce qui est dans le cœur, mais je vais rassembler mon vocabulaire et dire : je dédie cet humble travail à mes chers parents pour leur soutien tout au long de mon parcours universitaire, qui ont été les encouragements dans les moments de détresse, l'exhortation en période de prospérité, le soutien lors de la chute et le guide lors de la montée,qui n’a pas hésité un instant à m’aider jusqu’à ce que je suis arrivé là où
 		je suis maintenant. Tous les remerciements et gratitudes ne remplissent pas leur droit.
+	
+		
+		
+	\textbf{Je dédie ce modeste travail }\newline
+	\textbf{A mes parents en témoignage de mon affection et de ma profonde gratitude pour leur
+		soutien moral et financier et leurs encouragements ;}\newline
+	\textbf{	A mes frères et sœurs ;}\newline
+	\textbf{	A toute ma famille, qu’elle soit proche ou lointaine ;}\newline
+	\textbf{	A tous mes amis et camarades de classes pour leur aide et conseils ;}\newline
+	\textbf{	A mon tuteur pour son accueil chaleureux tout au long de mon cursus universitaire;}\newline
+	\textbf{	A mon oncle depuis les Etats-Unis pour son soutien et ses encouragements durant tout
+		mon cursus universitaire}
+	
+
+	\begin{center}
+		\it \Large
+			\raggedright Je dédie ce modeste travail \newline
+			\vspace{4mm}
+			\textbf{A mes parents en témoignage de mon affection et \vspace{4mm} de ma profonde gratitude pour leur soutien moral et financier et leurs encouragements ;}\newline
+		\textbf{	A mes frères et sœurs ;}\newline
+		\textbf{	A toute ma famille, qu’elle soit proche ou lointaine ;}\newline
+		\textbf{	A tous mes amis et camarades de classes pour leur aide et conseils ;}\newline
+		\textbf{	A mon tuteur pour son accueil chaleureux tout au long de mon cursus universitaire;}\newline
+		\textbf{	A mon oncle depuis les Etats-Unis pour son soutien et ses encouragements durant tout
+			mon cursus universitaire}
+		
+	
+	\end{center}
+\chapter*{\Huge Dédicaces}
+\end{comment}
+\begingroup
+\large \raggedright Je dédie ce travail à :
+
+\vspace{4mm}
+	\textbf{	Mes frères et sœurs ;}
+	
+\vspace{4mm}
+	\textbf{	Toute ma famille, qu’elle soit proche ou lointaine ;}
+	
+\vspace{4mm}
+	\textbf{	Tous mes amis et camarades de classes pour leur aide et conseils ;}
+	
+\vspace{4mm}
+
+	\textbf{	Mon tuteur pour son accueil chaleureux tout au long de mon \hspace*{0.5cm} cursus universitaire;
+		}
+	
+\vspace{4mm}
+\textbf{	Mon oncle depuis les Etats-Unis pour son soutien et ses  \newline \hspace*{0.5cm} encouragements durant tout
+	mon cursus universitaire;}	
+\endgroup
+
+\vspace{8mm}
+\begin{flushright}
+%	\LARGE \@author
+\end{flushright}
 		%sa signification
 			%\textbf{<< Dis, mon Seigneur, aie pitié d'eux comme ils m'ont élevé quand j'étais jeune >>}
 		\thispagestyle{empty} 
@@ -163,9 +232,49 @@
 		Le développement de ce deux systèmes s’est basé sur le
 	Processus Unifié (UP) comme méthode de modélisation et UML (Unified Modelling Language)
 	comme langage de modélisation.	
-		\end{comment}
+		
 		Le but de ce travail est la reimagination de l'application CADORIM pour être à jour à l'évolution  technologie dans le monde. La start-up Cadorim qui exerce dans le domaine du transfert d’argent de l’Europe vers la Mauritanie a proposé de créer un system d'obtention  des informations de client  pour  la bonne connaissance au client (KYC) et de créer un system de gestion de relation client (CRM). Ce qui nécessite la reconstruction de l'application CADORIM, Pour faciliter l'adaptation dans l'environnement de travail  dans la société et  assurer la bonne intégration de nouveaux changements.
 		\\La nouvelle version de l'application permettra la validation automatique des comptes clients d'une manière automatique.
+	\end{comment}
+		
+			
+	Le présent document est le fruit de notre travail dans le cadre du stage de fin d'études, pour lobtention du diplôme de master Professionnel en informatique 	Appliquée à la gestion (MPIAG), qui a été realise au sein de la société CADORIM . Notre travail Consiste à étudier les Framework Laravel et Flutter, afin de realise deux applications mobile.L'un est une nouveaux verssion du projet mobile CADORIM permettant la gestion de transfert d'argent  ,et  identifier électroniquement des documents comme des pièces d’identité (carte d’identité, passeportet et carte de séjour),et une fenêtre de discussion.
+	Et l'autre application ce pour la gestion de service client.\newline\newline
+	Afin de suivre l'évolution des techniques de l'information et l'émergence du monde mobile, noter  applications est conçue pour les différentes plateformes mobiles à savoir:Android, IOS.\newline\newline
+	Nous avons commencé par l'élaboration d'une étude fonctionnelle qu'on a fini par l'élaboration d'une conception du projet.\newline\newline
+	les principales fonctionnalités de CADORIM sont l'inscription des membres, le transfert d'argent, la communication avec le service client.
+
+	
+	\thispagestyle{empty}
+	\chapter*{Abstract} \label{chap:1Resumé1}
+This document is the result of our work in the end study's  internship,
+in order to obtain engineering degree in computer science applied to management,which has been done within company CADORIM.Our mission is to study two mobile development framework(Flutter,Laravel) and realize two mobile project, one is a new version of  CADORIM application and other is for menagment of clients relationship.\newline\newline
+To follow the evolution of information technology and the emergence of the mobile world,our application is designed for different mobile platforms  namely Android,IOS.\newline\newline
+
+
+
+
+	
+	\begin{comment}
+	\thispagestyle{empty}
+	\chapter*{\setcode{utf8} \<ملخص>} \label{chap:iuhds}
+		\setcode{utf8}
+	%To start typing in Arabic use the command arabtext
+	
+	\<  >%
+	
+
+	
+	
+		content...
+
+	%Note that your layout must support arabic text when compiling
+	\setcode{utf8}
+	%To start typing in Arabic use the command arabtext
+	
+	\<السَلامُ عَليكم ورَحمةُ الله وبَركاته  >
+
+	\end{comment}
 	
 	\thispagestyle{empty}
 	\chapter*{LISTE DES ABRÉVIATIONS} \label{chap:1SIGLES ET ABREVIATIONS}
@@ -209,7 +318,7 @@
 	\input{./Template LaTeX/TeXFiles/EnvironnementDeTravail}
 	\input{./Template LaTeX/TeXFiles/new_realisation}
 	\input{./Template LaTeX/TeXFiles/new_Conclusion}
-	\input{./Template LaTeX/TeXFiles/perspectives}
+%	\input{./Template LaTeX/TeXFiles/perspectives}
 	\input{./Template LaTeX/TeXFiles/Bibliographie}
 	%\input{./Template LaTeX/TeXFiles/Realisation}
 	%\input{./Template LaTeX/TeXFiles/Interface}	
