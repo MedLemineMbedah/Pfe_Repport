@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  23 SEP 2022 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  26 SEP 2022 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1958,47 +1958,61 @@ File: ./Template LaTeX/Images/22.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Template LaTeX/Images/22.jpg  used on input line 596
 .
 (pdftex.def)             Requested size: 142.26378pt x 295.57375pt.
-File: ./Template LaTeX/Images/3.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/3.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/3.jpg  used on input line 610.
-
-(pdftex.def)             Requested size: 142.26378pt x 295.57375pt.
+<./Template LaTeX/Images/From_emu/login.png, id=474, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/login.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/login.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/login.png  used on in
+put line 610.
+(pdftex.def)             Requested size: 142.26378pt x 252.89732pt.
  [45 <./Template LaTeX/Images/22.jpg>]
-File: ./Template LaTeX/Images/6.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/6.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/6.jpg  used on input line 652.
-
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-File: ./Template LaTeX/Images/7.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/7.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/7.jpg  used on input line 659.
-
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-File: ./Template LaTeX/Images/8.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/8.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/8.jpg  used on input line 666.
-
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-File: ./Template LaTeX/Images/9.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/9.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/9.jpg  used on input line 673.
-
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
- [46] [47]
-File: ./Template LaTeX/Images/9.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/9.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/9.jpg  used on input line 691.
-
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-<./Template LaTeX/Images/20.jpg, id=488, 1084.05pt x 2252.415pt>
-File: ./Template LaTeX/Images/20.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/20.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/20.jpg  used on input line 696
-.
-(pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
+<./Template LaTeX/Images/From_emu/A_home.png, id=480, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/A_home.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/A_home.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/A_home.png  used on i
+nput line 652.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
+<./Template LaTeX/Images/From_emu/A_update_modif.png, id=481, 1084.05pt x 1927.
+2pt>
+File: ./Template LaTeX/Images/From_emu/A_update_modif.png Graphic file (type pn
+g)
+<use ./Template LaTeX/Images/From_emu/A_update_modif.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/A_update_modif.png  u
+sed on input line 659.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
+<./Template LaTeX/Images/From_emu/A_up_s.png, id=482, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/A_up_s.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/A_up_s.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/A_up_s.png  used on i
+nput line 666.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
+<./Template LaTeX/Images/From_emu/A_add_s.png, id=483, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/A_add_s.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/A_add_s.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/A_add_s.png  used on 
+input line 673.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
+ [46 <./Template LaTeX/Images/From_emu/login.png>] [47 <./Template LaTeX/Images
+/From_emu/A_home.png> <./Template LaTeX/Images/From_emu/A_update_modif.png> <./
+Template LaTeX/Images/From_emu/A_up_s.png> <./Template LaTeX/Images/From_emu/A_
+add_s.png>]
+<./Template LaTeX/Images/From_emu/s_Home.png, id=498, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/s_Home.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/s_Home.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/s_Home.png  used on i
+nput line 691.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
+<./Template LaTeX/Images/From_emu/S_chatroom_res.png, id=499, 1084.05pt x 1927.
+2pt>
+File: ./Template LaTeX/Images/From_emu/S_chatroom_res.png Graphic file (type pn
+g)
+<use ./Template LaTeX/Images/From_emu/S_chatroom_res.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/S_chatroom_res.png  u
+sed on input line 696.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
 )
-(./Template LaTeX/TeXFiles/new_Conclusion.tex [48 <./Template LaTeX/Images/20.j
-pg>]) (./Template LaTeX/TeXFiles/Bibliographie.tex [49
+(./Template LaTeX/TeXFiles/new_Conclusion.tex [48 <./Template LaTeX/Images/From
+_emu/s_Home.png> <./Template LaTeX/Images/From_emu/S_chatroom_res.png>])
+(./Template LaTeX/TeXFiles/Bibliographie.tex [49
 
 ]
 Overfull \hbox (48.06201pt too wide) in paragraph at lines 14--17
@@ -2259,13 +2273,13 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ./Template LaTeX/Images/9.jpg
 ./Template LaTeX/Images/10.jpg
 ./Template LaTeX/Images/22.jpg
-./Template LaTeX/Images/3.jpg
-./Template LaTeX/Images/6.jpg
-./Template LaTeX/Images/7.jpg
-./Template LaTeX/Images/8.jpg
-./Template LaTeX/Images/9.jpg
-./Template LaTeX/Images/9.jpg
-./Template LaTeX/Images/20.jpg
+./Template LaTeX/Images/From_emu/login.png
+./Template LaTeX/Images/From_emu/A_home.png
+./Template LaTeX/Images/From_emu/A_update_modif.png
+./Template LaTeX/Images/From_emu/A_up_s.png
+./Template LaTeX/Images/From_emu/A_add_s.png
+./Template LaTeX/Images/From_emu/s_Home.png
+./Template LaTeX/Images/From_emu/S_chatroom_res.png
 ./Template LaTeX/TeXFiles/new_Conclusion.tex
 ./Template LaTeX/TeXFiles/Bibliographie.tex
  ***********
@@ -2279,10 +2293,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 62 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38174 strings out of 478287
- 706091 string characters out of 5849290
+ 38223 strings out of 478287
+ 708218 string characters out of 5849290
  1142455 words of memory out of 5000000
- 55422 multiletter control sequences out of 15000+600000
+ 55464 multiletter control sequences out of 15000+600000
  483937 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,11n,131p,1266b,2917s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2297,10 +2311,10 @@ public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
 /texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
 200.pfb>
-Output written on document.pdf (51 pages, 7470045 bytes).
+Output written on document.pdf (51 pages, 7752201 bytes).
 PDF statistics:
- 732 PDF objects out of 1000 (max. 8388607)
+ 745 PDF objects out of 1000 (max. 8388607)
  585 compressed objects within 6 object streams
  157 named destinations out of 1000 (max. 500000)
- 621 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
