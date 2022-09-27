@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  26 SEP 2022 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  27 SEP 2022 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1995,10 +1995,10 @@ input line 673.
 /From_emu/A_home.png> <./Template LaTeX/Images/From_emu/A_update_modif.png> <./
 Template LaTeX/Images/From_emu/A_up_s.png> <./Template LaTeX/Images/From_emu/A_
 add_s.png>]
-<./Template LaTeX/Images/From_emu/s_Home.png, id=498, 1084.05pt x 1927.2pt>
-File: ./Template LaTeX/Images/From_emu/s_Home.png Graphic file (type png)
-<use ./Template LaTeX/Images/From_emu/s_Home.png>
-Package pdftex.def Info: ./Template LaTeX/Images/From_emu/s_Home.png  used on i
+<./Template LaTeX/Images/From_emu/no_vue.png, id=498, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/no_vue.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/no_vue.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/no_vue.png  used on i
 nput line 691.
 (pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
 <./Template LaTeX/Images/From_emu/S_chatroom_res.png, id=499, 1084.05pt x 1927.
@@ -2011,7 +2011,7 @@ sed on input line 696.
 (pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
 )
 (./Template LaTeX/TeXFiles/new_Conclusion.tex [48 <./Template LaTeX/Images/From
-_emu/s_Home.png> <./Template LaTeX/Images/From_emu/S_chatroom_res.png>])
+_emu/no_vue.png> <./Template LaTeX/Images/From_emu/S_chatroom_res.png>])
 (./Template LaTeX/TeXFiles/Bibliographie.tex [49
 
 ]
@@ -2278,7 +2278,7 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ./Template LaTeX/Images/From_emu/A_update_modif.png
 ./Template LaTeX/Images/From_emu/A_up_s.png
 ./Template LaTeX/Images/From_emu/A_add_s.png
-./Template LaTeX/Images/From_emu/s_Home.png
+./Template LaTeX/Images/From_emu/no_vue.png
 ./Template LaTeX/Images/From_emu/S_chatroom_res.png
 ./Template LaTeX/TeXFiles/new_Conclusion.tex
 ./Template LaTeX/TeXFiles/Bibliographie.tex
@@ -2311,7 +2311,7 @@ public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
 /texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
 200.pfb>
-Output written on document.pdf (51 pages, 7752201 bytes).
+Output written on document.pdf (51 pages, 7752927 bytes).
 PDF statistics:
  745 PDF objects out of 1000 (max. 8388607)
  585 compressed objects within 6 object streams
