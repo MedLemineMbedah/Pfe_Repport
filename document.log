@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  27 SEP 2022 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.6.8)  29 SEP 2022 08:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,16 +1293,31 @@ LaTeX Warning: Label `fig:five over x' multiply defined.
 LaTeX Warning: Label `sub@fig:five over x' multiply defined.
 
 
+LaTeX Warning: Label `fig:y equals x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:y equals x' multiply defined.
+
+
+LaTeX Warning: Label `fig:three sin x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:three sin x' multiply defined.
+
+
+LaTeX Warning: Label `fig:five over x' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:five over x' multiply defined.
+
+
 LaTeX Warning: Label `fig.SICAPI' multiply defined.
 
 
 LaTeX Warning: Label `sub@fig.SICAPI' multiply defined.
 
 
-LaTeX Warning: Label `klk' multiply defined.
-
-
-LaTeX Warning: Label `sub@klk' multiply defined.
+LaTeX Warning: Label `Home' multiply defined.
 
 )
 \openout1 = `document.aux'.
@@ -1910,11 +1925,11 @@ File: ./Template LaTeX/Images/18.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Template LaTeX/Images/18.jpg  used on input line 531
 .
 (pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
-<./Template LaTeX/Images/21.jpg, id=454, 1084.05pt x 2252.415pt>
-File: ./Template LaTeX/Images/21.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/21.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/21.jpg  used on input line 543
-.
+<./Template LaTeX/Images/c.jpg, id=454, 1084.05pt x 2252.415pt>
+File: ./Template LaTeX/Images/c.jpg Graphic file (type jpg)
+<use ./Template LaTeX/Images/c.jpg>
+Package pdftex.def Info: ./Template LaTeX/Images/c.jpg  used on input line 543.
+
 (pdftex.def)             Requested size: 142.26378pt x 295.57375pt.
 
 [42 <./Template LaTeX/Images/16.jpg> <./Template LaTeX/Images/17.jpg> <./Templa
@@ -1949,14 +1964,14 @@ File: ./Template LaTeX/Images/10.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Template LaTeX/Images/10.jpg  used on input line 580
 .
 (pdftex.def)             Requested size: 136.57462pt x 283.75081pt.
- [43 <./Template LaTeX/Images/21.jpg>] [44 <./Template LaTeX/Images/6.jpg> <./T
-emplate LaTeX/Images/7.jpg> <./Template LaTeX/Images/8.jpg> <./Template LaTeX/I
-mages/9.jpg> <./Template LaTeX/Images/10.jpg>]
-<./Template LaTeX/Images/22.jpg, id=473, 1084.05pt x 2252.415pt>
-File: ./Template LaTeX/Images/22.jpg Graphic file (type jpg)
-<use ./Template LaTeX/Images/22.jpg>
-Package pdftex.def Info: ./Template LaTeX/Images/22.jpg  used on input line 596
-.
+ [43 <./Template LaTeX/Images/c.jpg>] [44 <./Template LaTeX/Images/6.jpg> <./Te
+mplate LaTeX/Images/7.jpg> <./Template LaTeX/Images/8.jpg> <./Template LaTeX/Im
+ages/9.jpg> <./Template LaTeX/Images/10.jpg>]
+<./Template LaTeX/Images/menu.jpg, id=473, 1084.05pt x 2252.415pt>
+File: ./Template LaTeX/Images/menu.jpg Graphic file (type jpg)
+<use ./Template LaTeX/Images/menu.jpg>
+Package pdftex.def Info: ./Template LaTeX/Images/menu.jpg  used on input line 5
+96.
 (pdftex.def)             Requested size: 142.26378pt x 295.57375pt.
 <./Template LaTeX/Images/From_emu/login.png, id=474, 1084.05pt x 1927.2pt>
 File: ./Template LaTeX/Images/From_emu/login.png Graphic file (type png)
@@ -1964,7 +1979,7 @@ File: ./Template LaTeX/Images/From_emu/login.png Graphic file (type png)
 Package pdftex.def Info: ./Template LaTeX/Images/From_emu/login.png  used on in
 put line 610.
 (pdftex.def)             Requested size: 142.26378pt x 252.89732pt.
- [45 <./Template LaTeX/Images/22.jpg>]
+ [45 <./Template LaTeX/Images/menu.jpg>]
 <./Template LaTeX/Images/From_emu/A_home.png, id=480, 1084.05pt x 1927.2pt>
 File: ./Template LaTeX/Images/From_emu/A_home.png Graphic file (type png)
 <use ./Template LaTeX/Images/From_emu/A_home.png>
@@ -1995,24 +2010,30 @@ input line 673.
 /From_emu/A_home.png> <./Template LaTeX/Images/From_emu/A_update_modif.png> <./
 Template LaTeX/Images/From_emu/A_up_s.png> <./Template LaTeX/Images/From_emu/A_
 add_s.png>]
+
+LaTeX Warning: Reference `serviceCl' on page 48 undefined on input line 687.
+
+<./Template LaTeX/Images/From_emu/a.png, id=497, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/a.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/a.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/a.png  used on input 
+line 691.
+(pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
 <./Template LaTeX/Images/From_emu/no_vue.png, id=498, 1084.05pt x 1927.2pt>
 File: ./Template LaTeX/Images/From_emu/no_vue.png Graphic file (type png)
 <use ./Template LaTeX/Images/From_emu/no_vue.png>
 Package pdftex.def Info: ./Template LaTeX/Images/From_emu/no_vue.png  used on i
-nput line 691.
+nput line 696.
 (pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
-<./Template LaTeX/Images/From_emu/S_chatroom_res.png, id=499, 1084.05pt x 1927.
-2pt>
-File: ./Template LaTeX/Images/From_emu/S_chatroom_res.png Graphic file (type pn
-g)
-<use ./Template LaTeX/Images/From_emu/S_chatroom_res.png>
-Package pdftex.def Info: ./Template LaTeX/Images/From_emu/S_chatroom_res.png  u
-sed on input line 696.
+<./Template LaTeX/Images/From_emu/b.png, id=499, 1084.05pt x 1927.2pt>
+File: ./Template LaTeX/Images/From_emu/b.png Graphic file (type png)
+<use ./Template LaTeX/Images/From_emu/b.png>
+Package pdftex.def Info: ./Template LaTeX/Images/From_emu/b.png  used on input 
+line 701.
 (pdftex.def)             Requested size: 136.57462pt x 242.78143pt.
-)
-(./Template LaTeX/TeXFiles/new_Conclusion.tex [48 <./Template LaTeX/Images/From
-_emu/no_vue.png> <./Template LaTeX/Images/From_emu/S_chatroom_res.png>])
-(./Template LaTeX/TeXFiles/Bibliographie.tex [49
+) (./Template LaTeX/TeXFiles/new_Conclusion.tex [48 <./Template LaTeX/Images/Fr
+om_emu/a.png> <./Template LaTeX/Images/From_emu/no_vue.png> <./Template LaTeX/I
+mages/From_emu/b.png>]) (./Template LaTeX/TeXFiles/Bibliographie.tex [49
 
 ]
 Overfull \hbox (48.06201pt too wide) in paragraph at lines 14--17
@@ -2266,23 +2287,27 @@ ltcaption.sty    2020/05/30 v1.4b longtable captions (AR)
 ./Template LaTeX/Images/16.jpg
 ./Template LaTeX/Images/17.jpg
 ./Template LaTeX/Images/18.jpg
-./Template LaTeX/Images/21.jpg
+./Template LaTeX/Images/c.jpg
 ./Template LaTeX/Images/6.jpg
 ./Template LaTeX/Images/7.jpg
 ./Template LaTeX/Images/8.jpg
 ./Template LaTeX/Images/9.jpg
 ./Template LaTeX/Images/10.jpg
-./Template LaTeX/Images/22.jpg
+./Template LaTeX/Images/menu.jpg
 ./Template LaTeX/Images/From_emu/login.png
 ./Template LaTeX/Images/From_emu/A_home.png
 ./Template LaTeX/Images/From_emu/A_update_modif.png
 ./Template LaTeX/Images/From_emu/A_up_s.png
 ./Template LaTeX/Images/From_emu/A_add_s.png
+./Template LaTeX/Images/From_emu/a.png
 ./Template LaTeX/Images/From_emu/no_vue.png
-./Template LaTeX/Images/From_emu/S_chatroom_res.png
+./Template LaTeX/Images/From_emu/b.png
 ./Template LaTeX/TeXFiles/new_Conclusion.tex
 ./Template LaTeX/TeXFiles/Bibliographie.tex
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -2293,10 +2318,10 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 62 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 38223 strings out of 478287
- 708218 string characters out of 5849290
- 1142455 words of memory out of 5000000
- 55464 multiletter control sequences out of 15000+600000
+ 38232 strings out of 478287
+ 708397 string characters out of 5849290
+ 1142268 words of memory out of 5000000
+ 55471 multiletter control sequences out of 15000+600000
  483937 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  110i,11n,131p,1266b,2917s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2311,10 +2336,10 @@ public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc
 /texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/p
 ublic/cm-super/sfrm1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1
 200.pfb>
-Output written on document.pdf (51 pages, 7752927 bytes).
+Output written on document.pdf (51 pages, 8003973 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 585 compressed objects within 6 object streams
+ 746 PDF objects out of 1000 (max. 8388607)
+ 584 compressed objects within 6 object streams
  157 named destinations out of 1000 (max. 500000)
- 651 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
