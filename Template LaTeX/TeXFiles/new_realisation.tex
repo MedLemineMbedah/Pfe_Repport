@@ -7,7 +7,7 @@ outils de développement, d’une part afin de rendre la tâche de la
 réalisation plus facile, d’autre part pour que notre système soit robuste et
 répond parfaitement a nos besoins , et que nos interfaces soient claires et
 faciles à utiliser.
-\subsection{Environnement logiciel}
+%\subsection{Environnement logiciel}
 
 \begin{comment}
 	content...
@@ -21,33 +21,44 @@ front de notre application mobile.
 Flutter est un framework de développement d’applications mobiles open source de Google. La principale raison de sa popularité est qu’il prend en charge la création 		   
 d’applications multiplateformes. Flutter est également utilisé pour créer des apps interactives qui s’exécutent sur des pages web ou sur le bureau.
 \end{comment}
-\subsubsection{Editeur de texte : VS Code}
+\subsection{Editeur de texte : VS Code}
+\begin{comment}
+	
+
 \begin{figure}[h]
 	\includegraphics[scale=0.4]{./Template LaTeX/Images/VSCode.jpg}
 	\centering
 	\caption{VS Code}
 \end{figure}
+
+\end{comment}
 VS Code (Visual Studio Code) est un éditeur de code source réalisé par Microsoft pour Win-
 dows, Linux et macOS.Les fonctionnalités incluent la prise en charge du débogage, lacoloration
 syntaxique, la saisie semi-automatique intelligente du code, les extraits de code, la refactorisation du
 code et Gitintégré. Les utilisateurs peuvent modifier le thème,les raccourcis clavier,les préférences et
 installer des extensions qui ajoutent des fonctionnalités supplémentaires.\newline Pour en savoir plus, veillez
 visiter le lien : \href{https://en.wikipedia.org/wiki/VisualStudioCode}{https://en.wikipedia.org/wiki/VisualStudioCode}
-\subsubsection{IDE : Android Studio}
+\subsection{IDE : Android Studio}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.2]{./Template LaTeX/Images/Android_Studio_Icon_3.6.svg}
 	\centering
 	\caption{Android Studio}
 \end{figure}
+\end{comment}
 Android Studio est un environnement de développement pour développer des applications mobiles Android. Il est basé sur IntelliJ IDEA et utilise le moteur de production Gradle. Il peut être téléchargé sous les systèmes d'exploitation Windows, macOS, Chrome OS et Linux.
 \newline Pour en savoir plus, veillez
 visiter le lien : \href{https://en.wikipedia.org/wiki/AndroidStudio.}{https://en.wikipedia.org/wiki/AndroidStudio.}
-\subsubsection{Git}
+\subsection{Git}
+\begin{comment}
+	
 \begin{figure}[h]
 	\includegraphics[scale=0.3]{./Template LaTeX/Images/Git-Icon.png}
 	\centering
 	\caption{Git}
 \end{figure}
+\end{comment}
 Git est un système de contrôle de version distribué gratuit et Open Source conçu pour gérer des
 petits projets aux très grands projets avec rapidité et efficacité. C'est un logiciel libre créé par
 Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique
@@ -76,12 +87,16 @@ répertoires. Il existe quatre types d'objets :
 veillez
 visiter le lien :
 \href{https://git-scm.com/s}{https://git-scm.com/s}
-\subsubsection{Le SGBD Firebase}
+\subsection{Le SGBD Firebase}
+\begin{comment}
+	
 \begin{figure}[h]
 	\includegraphics[scale=0.1]{./Template LaTeX/Images/firebase.png}
 	\centering
 	\caption{Firebase}
 \end{figure}
+
+\end{comment}
 Firebase est une plateforme d’hébergement pour n’importe quel type d’application (mobiles,
 Web, etc.) qui fournit aux développeurs une pléthore d'outils et de services pour les aider à
 développer des applications de haute qualité, à élargir leur base d'utilisateurs et à générer
@@ -98,10 +113,8 @@ grandeur de la demande, en particulier sa capacité à maintenir ses fonctionnal
 performances en cas de forte demande) à toute épreuve (plusieurs milliards d'utilisateurs) et une
 simplicité dans l'utilisation. Pour cela, Firebase a été décomposée en plusieurs produits
 extrêmement riches et adaptés au monde du mobile, dont la liste suivante :
-\setcounter{secnumdepth}{5}
-\paragraph{Firebase Realtime Database :\newline}
-
-
+%\setcounter{secnumdepth}{5}
+\subsubsection{Firebase Realtime Database :}
  Firebase Realtime Database est une base de données NoSQL hébergée dans le cloud qui vous
 permet de stocker et de synchroniser des données entre vos utilisateurs en temps réel [1], [2].
 Realtime Database est vraiment juste un gros objet JSON que les développeurs peuvent gérer
@@ -114,7 +127,7 @@ Web, vous permettant de créer vos applications sans avoir besoin de serveurs. L
 utilisateurs sont hors ligne, les SDK de base de données en temps réel utilisent le cache local
 sur l'appareil pour servir et stocker les modifications. Lorsque l'appareil est en ligne, les données
 locales sont automatiquement synchronisées.
-\paragraph{Firebase Authentication :\newline}
+\subsubsection{Firebase Authentication :}
 Firebase Authentication fournit des services backend, des SDK faciles à utiliser et des
 bibliothèques d'interfaces utilisateur prêtes à l'emploi pour authentifier les utilisateurs de votre
 application [1], [2].
@@ -130,7 +143,7 @@ Vous pouvez authentifier les utilisateurs de votre application à l'aide des mé
 L'utilisation de Firebase Authentication facilite la création de systèmes d'authentification
 sécurisés, tout en améliorant l'expérience de connexion et d'intégration pour les utilisateurs
 finaux.
-\paragraph{Firebase Cloud Messaging (FCM) :\newline}
+\subsubsection{Firebase Cloud Messaging (FCM)}
 Firebase Cloud Messaging (FCM) fournit une connexion fiable et à faible consommation de
 batterie entre votre serveur et vos périphériques, vous permettant d'envoyer et de recevoir
 gratuitement des messages et des notifications sur iOS, Android et sur le Web [1], [2]. Vous
@@ -144,7 +157,7 @@ FCM peut envoyer des messages instantanément, ou à un moment ultérieur dans l
 horaire local de l'utilisateur. Vous pouvez envoyer des données d'application personnalisées,
 telles que la définition des priorités, des sons et des dates d'expiration, ainsi que le suivi des
 événements de conversion.
-\paragraph{Cloud Firestore :\newline}
+\subsubsection{Cloud Firestore}
 Cloud Firestore est une base de données de documents NoSQL qui vous permet de facilement
 stocker, synchroniser et interroger des données pour vos applications mobiles et Web à l'échelle
 mondiale [1], [2]. Bien que cela puisse ressembler à quelque chose de similaire à la base de
@@ -162,13 +175,15 @@ Vous pouvez créer des hiérarchies pour stocker les données associées et réc
 les données dont vous avez besoin à l'aide de requêtes. Toutes les requêtes peuvent évoluer en
 fonction de la taille de votre jeu de résultats. Votre application est donc prête à évoluer depuis
 le premier jour.
-\subsubsection{SGBD MariaDB}
+\subsection{SGBD MariaDB}
+\begin{comment}
 
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{./Template LaTeX/Images/logo-mariadb-500px.png}
 	\centering
 	\caption{SGBD MariaDB}
 \end{figure}
+\end{comment}
 Un gestionnaire de base de données libre.
 ce projet est assurée par la fondation Maria DB, et sa
 maintenance par la société Monty Program AB, créateur du
@@ -180,13 +195,17 @@ des tables séparées plutôt que de tout rassembler dans une seule
 table. Du coup il améliore la rapidité et la souplesse de
 l'ensemble.
 
-\subsubsection{Logiciel de modélisation: Modelio}
+\subsection{Logiciel de modélisation: Modelio}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.5]{./Template LaTeX/Images/modelio.jpg}
 	\centering
 	\caption{Modelio}
 \end{figure}
-\newpage
+\end{comment}
+
+
 Modelio est un logiciel open source et multiplateforme permettant, entre autres, la modélisation
 UML et Business Process Model and Notation (BPMN). Pour en savoir plus, veuillez visiter le lien
 \href{https://www.modelio.org/about-modelio/features.html.}{https://www.modelio.org/about-modelio/features.html.}
@@ -198,8 +217,8 @@ Modelio dans notre contexte est le fait que je m’y suis déjà habitués. Les 
 réalisés avec Modelio sont ceux mentionnés ci-après.
 
 
-\subsubsection{Motifs d’architecture logicielle}
-\paragraph{MVC \newline}
+\subsection{Motifs d’architecture logicielle : MVC}
+%\subsubsection{MVC \newline}
 Le patron de conception MVC est l’une des bases du Framework
 laravel, c’est-à-dire modèle-vue- contrôleur. L’interaction avec la
 base de données est assurée par le Model, les regroupe, traite et
@@ -235,29 +254,35 @@ grandement la tâche aux développeurs.
 	\item [-] \textbf{Vue : } la vue réceptionne la réponse qui est envoyée par le
 	contrôleur .\newline
 \end{enumerate}
-\subsubsection{Serveur Web : Amazon Web Services (AWS)}
+\subsection{Serveur Web : Amazon Web Services (AWS)}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.3]{./Template LaTeX/Images/512px-Amazon_Web_Services_Logo.svg.png}
 	\centering
 	\caption{Amazon Web Services (AWS)}
 \end{figure}
+\end{comment}
+
 Amazon Web Services (AWS) est la plateforme cloud la plus complète et la plus largement adoptée au monde. Elle propose plus de 200 services complets issus de centres de données du monde entier. Des millions de clients (dont certaines des startups les plus dynamiques au monde, de très grandes entreprises et des agences fédérales de premier plan) utilisent AWS pour réduire leurs coûts, gagner en agilité et innover plus rapidement.
 
-\subsection{Conception}
-\subsubsection{Langage de modélisation : UML}
-\begin{figure}[h]
-	\includegraphics[scale=1]{./Template LaTeX/Images/formation-uml-analser-concevoir.png}
-	\centering
-	\caption{UML}
-\end{figure}
-On a utilisé UML comme langage de modélisation.
-Langage de modélisation unifié UML (Unified modeling Langage) un
-consiste a modéliser une application logicielle d'une façon standard
-dans le cadre de conception orientée objet.
-UML consiste a couvrir le cycle de vie d'un logiciel depuis la
-spécification des besoins jusqu'au codage en offrant plusieurs
-moyens de description et de modélisation des acteurs.
+%\subsection{Conception}
+\begin{comment}
+	\subsubsection{Langage de modélisation : UML}
+	\begin{figure}[h]
+		\includegraphics[scale=1]{./Template LaTeX/Images/formation-uml-analser-concevoir.png}
+		\centering
+		\caption{UML}
+	\end{figure}
+	On a utilisé UML comme langage de modélisation.
+	Langage de modélisation unifié UML (Unified modeling Langage) un
+	consiste a modéliser une application logicielle d'une façon standard
+	dans le cadre de conception orientée objet.
+	UML consiste a couvrir le cycle de vie d'un logiciel depuis la
+	spécification des besoins jusqu'au codage en offrant plusieurs
+	moyens de description et de modélisation des acteurs.
 
+\end{comment}
 
 
 
@@ -265,63 +290,132 @@ moyens de description et de modélisation des acteurs.
 \section{Choix des outils de travail }
 \subsection{Langages utilisés}
 \subsubsection{Dart}
+\begin{comment}
+	
 \begin{figure}[h]
 	\includegraphics[scale=0.4]{./Template LaTeX/Images/Dart_programming_language_logo.svg.png}
 	\centering
 	\caption{Dart}
 \end{figure}
+\end{comment}
+
 Dart est un langage de programmation open source à usage général. Il est initialement développé par Google. Dart est un langage orienté objet avec une syntaxe de C-style. Il prend en chargent les concepts de programmation tels que les interfaces, les classes, contrairement aux autres langages de programmation, Dart ne prend pas en charge les tableaux.
 Les collections Dart peuvent être utilisées pour répliquer des structures de données telles que des tableaux, des génériques et un typage facultatif.
 \newline Pour en savoir plus, veillez
 visiter le lien : \href{https://www.tutorialspoint.com/flutter/flutter_introduction_to_dart_programming.htm}{https://www.tutorialspoint.com/flutter/dart}
 \subsubsection{PHP}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.3]{./Template LaTeX/Images/PHP-logo.svg.png}
 	\centering
 	\caption{PHP}
 \end{figure}
+
+\end{comment}
+
 PHP est un langage de script utilisé le plus souvent côté serveur : dans cette architecture, le serveur interprète le code PHP des pages web demandées et génère du code (HTML, XHTML, CSS par exemple) et des données (JPEG, GIF, PNG par exemple) pouvant être interprétés et rendus par un navigateur web. PHP peut également générer d'autres formats comme le WML, le SVG et le PDF.
 
 Il a été conçu pour permettre la création d'applications dynamiques, le plus souvent développées pour le Web. PHP est le plus souvent couplé à un serveur Apache bien qu'il puisse être installé sur la plupart des serveurs HTTP tels que IIS ou nginx. Ce couplage permet de récupérer des informations issues d'une base de données, d'un système de fichiers (contenu de fichiers et de l'arborescence) ou plus simplement des données envoyées par le navigateur afin d'être interprétées ou stockées pour une utilisation ultérieure.
 \newline Pour en savoir plus, veillez
 visiter le lien : \href{https://fr.wikipedia.org/wiki/PHP}{https://fr.wikipedia.org/wiki/PHP}
+\subsubsection{Langage de modélisation : UML}
+\begin{comment}
+
+\begin{figure}[h]
+	\includegraphics[scale=1]{./Template LaTeX/Images/formation-uml-analser-concevoir.png}
+	\centering
+	\caption{UML}
+\end{figure}
+\end{comment}
+
+On a utilisé UML comme langage de modélisation.
+Langage de modélisation unifié UML (Unified modeling Langage) un
+consiste a modéliser une application logicielle d'une façon standard
+dans le cadre de conception orientée objet.
+UML consiste a couvrir le cycle de vie d'un logiciel depuis la
+spécification des besoins jusqu'au codage en offrant plusieurs
+moyens de description et de modélisation des acteurs.
 \subsection{Frameworks utilisés}
 
 \subsubsection{Flutter}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.3]{./Template LaTeX/Images/Flutter.png}
 	\centering
 	\caption{Flutter}
 \end{figure}
+\end{comment}
+
 Flutter est un framework de développement d’applications mobiles open source de Google. La principale raison de sa popularité est qu’il prend en charge la création 		   
-d’applications multiplateformes. Flutter est également utilisé pour créer des apps interactives qui s’exécutent sur des pages web ou sur le bureau.\newline
+d’applications multiplateformes. Flutter est également utilisé pour créer des apps interactives qui s’exécutent sur des pages web ou sur le bureau.\newline\newline
 \textbf {- Les caractéristiques de Flutter :}
-
-
 \begin{enumerate}
 	\item Base de code unique pour Android et iOS
 	\item Fonction de rechargement à chaud (hot reload)
 	\item Open-source et par Google
-	\item Programmation Dart \newline \newline \newline
+	\item Programmation Dart \newline
 \end{enumerate}
-
-
 \textbf {- Architecture d’une application Flutter :} 
+\begin{comment}
+	content...
+
+\begin{enumerate}
+	\item[•] Flutter a une architecture modulaire en couches. Cela vous permet d’écrire votre logique d’application une seule fois et d’avoir un comportement cohérent sur toutes les plates-formes, même si le code du moteur sous-jacent diffère selon la plate-forme.
+	\item[•] L’architecture en couches expose également différents points de personnalisation et de remplacement, si nécessaire.
+	\item[•] Le concept de base du framework Flutter est dans Flutter, tout est un widget. Widget sont essentiellement des composants d’interface utilisateur utilisés pour créer l’interface utilisateur de l’application.
+	\item[•] L’interface utilisateur est construite à l’aide d’un ou plusieurs enfants (widgets), qui se construisent à nouveau à l’aide de ses enfants
+	widgets.
+	\item[•] Cette fonctionnalité de composabilité nous aide à créer une interface utilisateur de toute complexité.
+	\item[•] Flutter a une architecture modulaire qui effectivement permet d’écrire le code une seule fois et de l’utiliser sur plusieurs plateformes (Android, ios, ou web) même si le moteur est différent de plateforme à plateforme, pour le développeur c’est transparent. voici en image cette architecture:
+\end{enumerate}
+\end{comment}
+Flutter a une architecture modulaire qui effectivement permet d’écrire le code une seule fois et de l’utiliser sur plusieurs plateformes (Android, ios, ou web) même si le moteur est différent de plateforme à plateforme, pour le développeur c’est transparent. voici en image cette architecture:
+
+
 \begin{figure}[h!]
-	\includegraphics[width=450px,height=250px]{./Template LaTeX/Images/Flutter_architect.png}
+	\includegraphics[width=450px,height=250px]{./Template LaTeX/Images/Architecture-dune-application-Flutter-1.jpg}
 	\caption{Architecture d’une application Flutter.}
 	\label{fig:birds}
 \end{figure}
+
+	
+	 L’architecture Flutter comprend principalement quatre composants:
+	\begin{enumerate}
+		\item[•] \textbf{Flutter Engine (Moteur de flutter): }
+		Le Flutter Engine est un environnement d’exécution portable pour les applications mobiles de haute qualité. Il implémente les bibliothèques principales de Flutter, y compris l’animation et les graphiques, les E/S de fichiers et de réseau, la prise en charge de l’accessibilité, l’architecture des plugins, ainsi qu’un environnement d’exécution et une chaîne d’outils Dart pour développer, compiler et exécuter des applications Flutter.
+		\item[•] \textbf{Foundation Library (Bibliothèque de la Fondation):} Il contient tous les packages requis pour les éléments de base de l’écriture d’une application Flutter. Ces librairies sont écrites en langage Dart.
+		\item[•] \textbf{Widgets (Widget) :}
+		\begin{enumerate}
+			\item[*] Les widgets sont les éléments de base de l’interface utilisateur dans Flutter.
+			\item[*] La conception de l’interface utilisateur pour une application implique la composition et la modification de divers widgets simples tels que du texte, des formes et des animations pour en créer des plus complexes.
+			\item[*] Les widgets Flutter ne sont que des éléments de votre interface utilisateur. Si vous êtes familier avec le développement Android ou iOS, vous établirez la connexion immédiate aux vues (pour Android) et aux UIViews (pour iOS). C’est une bonne comparaison à faire et vous ferez bien de commencer votre voyage avec cet état d’esprit. Une façon plus précise de penser, cependant, est qu’un widget est un plan
+		\end{enumerate}	
+		\item[•] \textbf{Embedder Platform Specific (widgets spécifiques) :}
+		Embbeder est différent pour chaque plateforme et son rôle est de créer l’exécutable ou les modules pour chaque plateforme.
+		\begin{enumerate}
+			\item[*] Les applications Flutter sont packagées de la même manière que toute autre application native pour les plates-formes cibles.
+			\item[*] Flutter fournit un certain nombre d’intégrateurs spécifiques à la plate-forme pour les plates-formes cibles qui coordonnent une application flottante avec le système d’exploitation sous-jacent pour accéder à des services tels que les surfaces de rendu, l’accessibilité, la saisie et la gestion de la boucle d’événements de message.
+			\item[*] L’intégrateur est généralement écrit dans le meilleur langage approprié pour la cible. plate-forme.
+			\item[*] L’embedder pour Android est écrit en C++ et Java, Objective C/Objective C++ pour iOS et macOS, et C++ pour Windows et Linux. Avec l’utilisation de l’embedder, le code Flutter peut également être intégré dans une application existante en tant que module.
+		\end{enumerate}	
+	\end{enumerate}
+ Pour en savoir plus, veillez
+visiter le lien : \href{https://apcpedagogie.com/architecture-dune-application-flutter/}{https://apcpedagogie.com/architecture-dune-application-flutter/}
 \newpage
 \subsubsection{Laravel}
+\begin{comment}
+
 \begin{figure}[h]
 	\includegraphics[scale=0.2]{./Template LaTeX/Images/462px-Laravel.svg.png}
 	\centering
 	\caption{Laravel}
 \end{figure}
+\end{comment}
 Laravel est un framework web open-source écrit en  \href{https://fr.wikipedia.org/wiki/PHP}{PHP} respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet. Laravel est distribué sous \href{https://fr.wikipedia.org/wiki/Licence_MIT}{licence MIT}, avec ses sources hébergées sur 
 \href{https://fr.wikipedia.org/wiki/GitHub}{GitHub}.\newline\newline
-\textbf {- Les caractéristiques de Laravel :}
+\textbf {- Architecture de Laravel :}
 
 \begin{figure}[h!]
 	\includegraphics[width=500px,height=200px]{./Template LaTeX/Images/Laravel-MVC-framework.jpg}
@@ -354,7 +448,7 @@ Pour réaliser notre système, il y a des étapes à élaborer dans l’ordre su
 	visible de l'application, destinée à être manipulée par un tiers.
 \end{itemize}
 \subsection{Interfaces Homme/Machine}
-Dans ce qui suit, nous présentons quelques écrans de notre produit final des applictions CADORIM et Cadorim service.
+Dans ce qui suit, nous présentons quelques  fonctionnalités avec leur interfaces \newline graphiques de notre produit final des applictions CADORIM et Cadorim service.
 \subsubsection{Application CADORIM}
 \begin{itemize}[label=$\ast$]
 		\item \textbf{Première interface :} L'utilisateur du Cadorim avant d'être invite à consulter les services de l'application, doit 
@@ -422,9 +516,10 @@ Dans ce qui suit, nous présentons quelques écrans de notre produit final des a
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5 Home
 	
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\newpage
+%	\newpage
 	\item \textbf{Processus de la transaction
-		:} La figure suivante montre les processus de la transaction depuis la sélection de montant jusqu'à la validation (une notification de succès va Apparence si le traitement se fait avec succès)
+		:} La figure ~\ref{ProcessusT} %suivante 
+	montre les processus de la transaction depuis la sélection de montant jusqu'à la validation (une notification de succès va Apparence si le traitement se fait avec succès)
 \begin{comment}
 	content...
 
@@ -504,7 +599,7 @@ Dans ce qui suit, nous présentons quelques écrans de notre produit final des a
 		\label{fig:five over x}
 	\end{subfigure}
 	\caption{Processus de transactions}
-	\label{fig:three graphs}
+	\label{ProcessusT}
 \end{figure}
 \newpage
 \item \textbf{L’interface de transfert

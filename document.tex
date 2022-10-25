@@ -11,6 +11,8 @@
 \usepackage{arabtex}
 \usepackage{utf8}
 \usepackage{hyperref}
+\usepackage{pgfgantt}
+
 \hypersetup{
 	colorlinks,
 	citecolor=blue,
@@ -90,11 +92,26 @@
 			{\bf Diplôme de Master Professionnel en Informatique}\vspace{-0.2cm}\\
 				{\bf	Appliquée à la Gestion (MPIAG)}\\ \vspace{0.2cm}
 				{\bf Par :}\\ \vspace{0.2cm}
-					{\bf Mohamed Lemine Salem M’bedah (IE18689) }\\ \vspace{0.2cm}
-			\huge{\textbf{Thème}}\\ 
+					{\bf Mohamed Lemine Salem M’bedah (IE18689) }\\ \vspace{1cm}
+			%\huge{\textbf{Thème}}\\ 
+	\setlength\arrayrulewidth{3pt}
+	\begin{tabularx}{1\textwidth} { 
+			| >{\raggedright\arraybackslash}X 
+			|  }
+		\hline
+		 \vspace{0.1cm}
+		 \Large{\bf{\hspace*{0.4cm}CREATION D’UN SYSTEME DE GESTION DE \hspace*{2.2cm} RELATION CLIENT (CRM) ET LA \hspace*{2.5cm} CONNAISSANCE CLIENT (KYC)}}
+		 \vspace{0.3cm}
+		 \\
+		\hline
+	\end{tabularx}
+			
+			
+			\begin{comment}
 			\noindent\rule{\textwidth}{1mm}
 			\Large{\bf{CREATION D’UN SYSTEME DE GESTION DE RELATION CLIENT (CRM) ET LA CONNAISSANCE CLIENT (KYC)}}
 			\noindent\rule{\textwidth}{1mm}
+			\end{comment}
 		\end{center}
 		\vspace{0cm}
 		%-------------------------------------------------------------------------- 07
@@ -102,19 +119,23 @@
 			
 			{\bf Encadré par :}\\
 			{Dr. Cheikh Dhib} \\
-			{Mr. Mboirick Mohamed} \\
-			{\bf Réalisé au sein de CADORIM }
+			{\hspace{1.4cm}Mr. Mboirick Mohamed} \\
+			{\bf 
+				%\hspace{1.2cm}
+				Réalisé au sein de CADORIM }
 			
 			
 		\end{center}
 		\begin{figure}[htbp]
 		\hbox{
+			%\hspace*{5.6cm}
 			\hspace*{5cm}
 			\includegraphics[width=150px]{./Template LaTeX/Images/cado_logo.png}
 		}
 		\end{figure}
-		
+		\vspace{2cm}
 		\begin{center}
+			%\hspace{1.5cm}
 			Année universitaire 2021-2022
 		\end{center}
 		%--------------------------------------------------------------------------- 08
@@ -155,7 +176,7 @@
 	
 	\end{center}
 \chapter*{\Huge Dédicaces}
-\end{comment}
+
 \begingroup
 \large \raggedright Je dédie ce travail à :
 
@@ -177,7 +198,13 @@
 \textbf{	Mon oncle depuis les Etats-Unis pour son soutien et ses  \newline \hspace*{0.5cm} encouragements durant tout
 	mon cursus universitaire;}	
 \endgroup
-
+\end{comment}
+Les mots ne sauront traduire ce qui est dans le coeur, mais je vais rassembler mon
+vocabulaire et dire : je dédie cet humble travail à mes chers parents pour leur soutien tout
+au long de mon parcours universitaire, qui ont été les encouragements dans les moments
+de détresse, l'exhortation en période de prospérité, le soutien lors de la chute et le guide
+lors de la montée, qui n'a pas hésité un instant à m'aider jusqu'à ce que j'ai arrivé là où je
+suis maintenant. Tous les remerciements et gratitudes ne remplissent pas leur droit.
 \vspace{8mm}
 \begin{flushright}
 %	\LARGE \@author
@@ -188,6 +215,17 @@
 		\chapter*{REMERCIEMENTS} \label{chap:1REMERCIEMENTS}
 		%\addcontentsline{toc}{chapter}{REMERCIEMENTS} 
 		\textit{
+			Nos premiers remerciements sont adressés à nos professeurs à L’Institut Supérieur de Comptabilité et d’Administration des Entreprises pour leur forte implication à notre formation de
+			master et on remercie particulièrement \textbf{Dr. Emani Mohamed Sidi},
+			coordinateur du master informatique. Ensuite, bien sûr, on tient à remercier
+			notre encadrant \textbf{Dr. Cheikh Dhib}, l'ancien coordinateur de MPIAG, pour son encadrement, ses recommandations
+			précieuses et sa disponibilité, ainsi que \textbf{Mr Mohamed Mboirick} qui nous a
+			encadrer au sein de l’entreprise CADORIM il était une grande référence pour
+			nous et on a beaucoup appris avec lui et son aide pour réaliser ce stage. Enfin
+			nos remerciements tout ceux qui ont contribué de près ou de loin à
+			l'élaboration de ce travail.
+		}
+			\begin{comment}
 			Ce n’est pas parce que la tradition l’exige que cette page se trouve dans ce rapport;
 			mais par ce que les gens à qui s’adressent mes remerciements les méritent vraiment.
 			\newline
@@ -204,15 +242,21 @@
 				  disponibilité et l’intérêt que vous avez porté à ce travail ;
 			\end{enumerate}
 			Toutes les personnes qui de près ou de loin, ont contribué à la réalisation de ce travail.
-		 }
+			
+			content...
+	
+	 
 	 \thispagestyle{empty}
 	 \chapter*{AVANT-PROPOS} \label{chap:1AVANT-PROPOS}
 	%\addcontentsline{toc}{chapter}{AVANT-PROPOS}
 	L’Institut Supérieur de Comptabilité et d’Administration des Entreprises est un établissement public d’enseignement supérieur et de recherche, placé sous la tutelle du Ministère en charge de l’Enseignement Supérieur, crée en 2009, par décret N° 2009-161 du 29 avril 2009.
 	\newline
 	L’ISCAE compte deux (2) départements et dans le cadre de leur formation, les étudiants qui sont en fin de cycle sont tenus d’effectuer un stage pratique au sein d’une entreprise ou d’un service informatique.
+		content...
+\end{comment}
 	\thispagestyle{empty}
 	\chapter*{RESUME} \label{chap:1Resumé}
+	
 	\begin{comment}
 		content...
 	Dans le cadre de l’obtention de notre diplôme de MASTER en Informatique Appliquée à la Gestion (MPIAG)
@@ -238,17 +282,17 @@
 	\end{comment}
 		
 			
-	Le présent document est le fruit de notre travail dans le cadre du stage de fin d'études, pour lobtention du diplôme de master Professionnel en informatique 	Appliquée à la gestion (MPIAG), qui a été realise au sein de la société CADORIM . Notre travail Consiste à étudier les Framework Laravel et Flutter, afin de realise deux applications mobile.L'un est une nouveaux verssion du projet mobile CADORIM permettant la gestion de transfert d'argent  ,et  identifier électroniquement des documents comme des pièces d’identité (carte d’identité, passeportet et carte de séjour),et une fenêtre de discussion.
+	Le présent document est le fruit de notre travail dans le cadre du stage de fin d'études, pour lobtention du diplôme de master Professionnel en informatique 	Appliquée à la gestion (MPIAG), qui a été realise au sein de la société CADORIM . Notre travail Consiste à étudier les Framework Laravel et Flutter, afin de realise deux applications mobile. L'un est une nouveaux verssion du projet mobile CADORIM permettant la gestion de transfert d'argent  , et  identifier électroniquement des documents comme des pièces d’identité (carte d’identité, passeportet et carte de séjour), et une fenêtre de discussion.
 	Et l'autre application ce pour la gestion de service client.\newline\newline
 	Afin de suivre l'évolution des techniques de l'information et l'émergence du monde mobile, noter  applications est conçue pour les différentes plateformes mobiles à savoir:Android, IOS.\newline\newline
 	Nous avons commencé par l'élaboration d'une étude fonctionnelle qu'on a fini par l'élaboration d'une conception du projet.\newline\newline
-	les principales fonctionnalités de CADORIM sont l'inscription des membres, le transfert d'argent, la communication avec le service client.
+	Les principales fonctionnalités de CADORIM sont l'inscription des membres, le transfert d'argent et la communication avec le service client.
 
 	
 	\thispagestyle{empty}
 	\chapter*{Abstract} \label{chap:1Resumé1}
 This document is the result of our work in the end study's  internship,
-in order to obtain engineering degree in computer science applied to management,which has been done within company CADORIM.Our mission is to study two mobile development framework(Flutter,Laravel) and realize two mobile project, one is a new version of  CADORIM application and other is for menagment of clients relationship.\newline\newline
+in order to obtain engineering degree in computer science applied to management,which has been done within company CADORIM. Our mission is to study two mobile development framework(Flutter,Laravel) and realize two mobile project, one is a new version of  CADORIM application and other is for menagment of clients relationship.\newline\newline
 To follow the evolution of information technology and the emergence of the mobile world,our application is designed for different mobile platforms  namely Android,IOS.\newline\newline
 
 
@@ -310,6 +354,7 @@ To follow the evolution of information technology and the emergence of the mobil
 	
 	\tableofcontents
 	\listoffigures
+	\listoftables
 	\thispagestyle{empty}
 	\input{./Template LaTeX/TeXFiles/newIntro}
 	%\input{./Template LaTeX/TeXFiles/Introduction}
